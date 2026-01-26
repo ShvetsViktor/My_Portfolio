@@ -5,245 +5,322 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viktor Shvets | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Your custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
-<body id="top">
+<body id="top" class="bg-dark text-light">
     <!-- Header -->
-    <header class="site-header">
-        <a class="brand" href="#top" aria-label="Go to top">Viktor Shvets</a>
+    <header class="sticky-top border-bottom border-secondary-subtle bg-dark bg-opacity-75 backdrop-blur">
+        <div class="container py-3 d-flex align-items-center justify-content-between gap-3">
+            <a class="fw-semibold text-decoration-none text-light" href="#top">Viktor Shvets</a>
 
-        <nav class="nav" aria-label="Primary navigation">
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <nav class="d-none d-lg-flex align-items-center gap-3" aria-label="Primary navigation">
+                <a class="nav-link px-2 text-light-emphasis" href="#projects">Projects</a>
+                <a class="nav-link px-2 text-light-emphasis" href="#skills">Skills</a>
+                <a class="nav-link px-2 text-light-emphasis" href="#about">About</a>
+                <a class="nav-link px-2 text-light-emphasis" href="#contact">Contact</a>
+            </nav>
 
-        <div class="actions">
-            <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV</a>
-            <a class="icon" href="https://github.com/USERNAME" target="_blank" rel="noopener"
-                aria-label="GitHub">GitHub</a>
-            <a class="icon" href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener"
-                aria-label="LinkedIn">LinkedIn</a>
+            <div class="d-flex align-items-center gap-2">
+                <a class="btn btn-light fw-semibold" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+                <a class="btn btn-outline-light" href="https://github.com/USERNAME" target="_blank"
+                    rel="noopener">GitHub</a>
+                <a class="btn btn-outline-light" href="https://linkedin.com/in/USERNAME" target="_blank"
+                    rel="noopener">LinkedIn</a>
 
-            <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"
-                aria-controls="mobileMenu">
-                <span></span><span></span><span></span>
-            </button>
+                <!-- Mobile menu button -->
+                <button class="btn btn-outline-light d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false"
+                    aria-label="Toggle menu">
+                    Menu
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="collapse d-lg-none border-top border-secondary-subtle" id="mobileMenu">
+            <div class="container py-2 d-flex flex-column gap-1">
+                <a class="nav-link text-light-emphasis" href="#projects" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu">Projects</a>
+                <a class="nav-link text-light-emphasis" href="#skills" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu">Skills</a>
+                <a class="nav-link text-light-emphasis" href="#about" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu">About</a>
+                <a class="nav-link text-light-emphasis" href="#contact" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu">Contact</a>
+            </div>
         </div>
     </header>
 
-    <!-- Mobile menu -->
-    <div class="mobile-menu" id="mobileMenu" hidden>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
-
     <main>
         <!-- Hero -->
-        <section class="section hero">
-            <div class="container hero-grid">
-                <div class="hero-text">
-                    <p class="eyebrow">Software Tester • Junior Frontend Developer</p>
-                    <h1>I ship clean UI and reliable releases.</h1>
-                    <p class="lead">
-                        I combine testing mindset with frontend work: clear layout, predictable behavior, and
-                        quality-focused delivery.
-                    </p>
+        <section class="py-5">
+            <div class="container py-4">
+                <div class="row g-4 align-items-start">
+                    <div class="col-lg-7">
+                        <p class="text-secondary mb-2">Software Tester • Junior Frontend Developer</p>
+                        <h1 class="display-5 fw-bold mb-3">I ship clean UI and reliable releases.</h1>
+                        <p class="lead text-secondary mb-4">
+                            I combine testing mindset with frontend work: clear layout, predictable behavior, and
+                            quality-focused delivery.
+                        </p>
 
-                    <div class="hero-cta">
-                        <a class="btn" href="#projects">View projects</a>
-                        <a class="btn btn-ghost" href="#contact">Contact</a>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <a class="btn btn-light fw-semibold" href="#projects">View projects</a>
+                            <a class="btn btn-outline-light" href="#contact">Contact</a>
+                        </div>
+
+                        <div class="text-secondary">
+                            <span class="me-2">📍 England</span>
+                            <span class="me-2">•</span>
+                            <span>Open to remote</span>
+                        </div>
                     </div>
 
-                    <div class="meta">
-                        <span>📍 England</span><span>•</span><span>Open to remote</span>
+                    <div class="col-lg-5">
+                        <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4">
+                            <div class="card-body p-4">
+                                <h2 class="h5 fw-semibold mb-3">Quick snapshot</h2>
+                                <ul class="mb-0 text-secondary">
+                                    <li>Testing: Jira, TestRail, Postman, DevTools, Selenium</li>
+                                    <li>Frontend: HTML, CSS/SCSS, JavaScript, React (basics)</li>
+                                    <li>Backend: Python (Django), PHP, SQL</li>
+                                    <li>Deploy: Git, Docker, Cloudflare Pages</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="card">
-                    <h2 class="card-title">Quick snapshot</h2>
-                    <ul class="list">
-                        <li>Testing: Jira, TestRail, Postman, DevTools, Selenium</li>
-                        <li>Frontend: HTML, CSS/SCSS, JavaScript, React (basics)</li>
-                        <li>Backend: Python (Django), PHP, SQL</li>
-                        <li>Deploy: Git, Docker, Cloudflare Pages</li>
-                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- Projects -->
-        <section class="section" id="projects">
-            <div class="container">
-                <div class="section-head">
-                    <h2>Projects</h2>
-                    <p class="muted">Replace Demo/GitHub links with your real ones.</p>
+        <section class="py-5" id="projects">
+            <div class="container py-4">
+                <div class="mb-4">
+                    <h2 class="h2 fw-bold mb-2">Projects</h2>
+                    <p class="text-secondary mb-0">Replace Demo/GitHub links with your real ones.</p>
                 </div>
 
-                <div class="grid">
-                    <article class="card project">
-                        <h3>Love Running</h3>
-                        <p class="muted">Landing page + gallery + sign-up page.</p>
-                        <div class="tags">
-                            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
-                        </div>
-                        <div class="card-actions">
-                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Demo</a>
-                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
-                        </div>
-                    </article>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article
+                            class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4 h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-2">Love Running</h3>
+                                <p class="text-secondary mb-3">Landing page + gallery + sign-up page.</p>
 
-                    <article class="card project">
-                        <h3>API Testing Pack</h3>
-                        <p class="muted">Postman collection + sample test scenarios.</p>
-                        <div class="tags">
-                            <span class="tag">Postman</span><span class="tag">REST</span><span
-                                class="tag">Testing</span>
-                        </div>
-                        <div class="card-actions">
-                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
-                        </div>
-                    </article>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="badge rounded-pill text-bg-secondary">HTML</span>
+                                    <span class="badge rounded-pill text-bg-secondary">CSS</span>
+                                    <span class="badge rounded-pill text-bg-secondary">JS</span>
+                                </div>
 
-                    <article class="card project">
-                        <h3>One-page Portfolio</h3>
-                        <p class="muted">Anchors, responsive layout, and clean UI.</p>
-                        <div class="tags">
-                            <span class="tag">Responsive</span><span class="tag">HTML</span><span class="tag">CSS</span>
-                        </div>
-                        <div class="card-actions">
-                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Demo</a>
-                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
-                        </div>
-                    </article>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-outline-light btn-sm" href="#" target="_blank"
+                                        rel="noopener">Demo</a>
+                                    <a class="btn btn-outline-light btn-sm" href="#" target="_blank"
+                                        rel="noopener">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article
+                            class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4 h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-2">API Testing Pack</h3>
+                                <p class="text-secondary mb-3">Postman collection + sample test scenarios.</p>
+
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="badge rounded-pill text-bg-secondary">Postman</span>
+                                    <span class="badge rounded-pill text-bg-secondary">REST</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Testing</span>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-outline-light btn-sm" href="#" target="_blank"
+                                        rel="noopener">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article
+                            class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4 h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-2">One-page Portfolio</h3>
+                                <p class="text-secondary mb-3">Anchors, responsive layout, and clean UI.</p>
+
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="badge rounded-pill text-bg-secondary">Responsive</span>
+                                    <span class="badge rounded-pill text-bg-secondary">HTML</span>
+                                    <span class="badge rounded-pill text-bg-secondary">CSS</span>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-outline-light btn-sm" href="#" target="_blank"
+                                        rel="noopener">Demo</a>
+                                    <a class="btn btn-outline-light btn-sm" href="#" target="_blank"
+                                        rel="noopener">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Skills -->
-        <section class="section" id="skills">
-            <div class="container">
-                <div class="section-head">
-                    <h2>Skills</h2>
-                    <p class="muted">Grouped, practical, and easy to scan.</p>
+        <section class="py-5" id="skills">
+            <div class="container py-4">
+                <div class="mb-4">
+                    <h2 class="h2 fw-bold mb-2">Skills</h2>
+                    <p class="text-secondary mb-0">Grouped, practical, and easy to scan.</p>
                 </div>
 
-                <div class="grid grid-2">
-                    <div class="card">
-                        <h3>Frontend</h3>
-                        <ul class="list">
-                            <li>HTML, CSS, SCSS, responsive layout</li>
-                            <li>JavaScript, React (basics)</li>
-                            <li>UI/UX basics, Figma</li>
-                        </ul>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-3">Frontend</h3>
+                                <ul class="text-secondary mb-0">
+                                    <li>HTML, CSS, SCSS, responsive layout</li>
+                                    <li>JavaScript, React (basics)</li>
+                                    <li>UI/UX basics, Figma</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="card">
-                        <h3>Testing & Tools</h3>
-                        <ul class="list">
-                            <li>Jira, TestRail, DevTools</li>
-                            <li>Postman / SoapUI, REST APIs</li>
-                            <li>Selenium (basics), Git, Docker</li>
-                        </ul>
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-3">Testing & Tools</h3>
+                                <ul class="text-secondary mb-0">
+                                    <li>Jira, TestRail, DevTools</li>
+                                    <li>Postman / SoapUI, REST APIs</li>
+                                    <li>Selenium (basics), Git, Docker</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- About -->
-        <section class="section" id="about">
-            <div class="container">
-                <div class="section-head">
-                    <h2>About</h2>
-                    <p class="muted">A short, human summary.</p>
+        <section class="py-5" id="about">
+            <div class="container py-4">
+                <div class="mb-4">
+                    <h2 class="h2 fw-bold mb-2">About</h2>
+                    <p class="text-secondary mb-0">A short, human summary.</p>
                 </div>
 
-                <div class="card">
-                    <p class="p">
-                        I’m a Software Tester transitioning into frontend/full-stack work. I enjoy clean layouts,
-                        predictable UI behavior,
-                        and delivering changes with confidence. I build projects consistently and improve them
-                        iteratively.
-                    </p>
+                <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4">
+                    <div class="card-body p-4">
+                        <p class="mb-0 text-secondary">
+                            I’m a Software Tester transitioning into frontend/full-stack work. I enjoy clean layouts,
+                            predictable UI behavior,
+                            and delivering changes with confidence. I build projects consistently and improve them
+                            iteratively.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact -->
-        <section class="section" id="contact">
-            <div class="container">
-                <div class="section-head">
-                    <h2>Contact</h2>
-                    <p class="muted">This form is UI-only (no backend). You can switch to mailto or a form service
-                        later.</p>
+        <section class="py-5" id="contact">
+            <div class="container py-4">
+                <div class="mb-4">
+                    <h2 class="h2 fw-bold mb-2">Contact</h2>
+                    <p class="text-secondary mb-0">UI-only form (no backend). You can switch to a form service later.
+                    </p>
                 </div>
 
-                <div class="grid grid-2">
-                    <div class="card">
-                        <h3>Send a message</h3>
-                        <form class="form" action="#" method="post">
-                            <label>
-                                Name
-                                <input type="text" name="name" placeholder="Your name" />
-                            </label>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4 h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-3">Send a message</h3>
 
-                            <label>
-                                Email
-                                <input type="email" name="email" placeholder="you@email.com" />
-                            </label>
+                                <form action="#" method="post" class="vstack gap-3">
+                                    <div>
+                                        <label class="form-label text-secondary" for="name">Name</label>
+                                        <input class="form-control bg-dark text-light border-secondary" id="name"
+                                            type="text" name="name" placeholder="Your name" />
+                                    </div>
 
-                            <label>
-                                Message
-                                <textarea name="message" rows="5" placeholder="How can I help?"></textarea>
-                            </label>
+                                    <div>
+                                        <label class="form-label text-secondary" for="email">Email</label>
+                                        <input class="form-control bg-dark text-light border-secondary" id="email"
+                                            type="email" name="email" placeholder="you@email.com" />
+                                    </div>
 
-                            <button class="btn" type="submit">Send</button>
-                        </form>
+                                    <div>
+                                        <label class="form-label text-secondary" for="message">Message</label>
+                                        <textarea class="form-control bg-dark text-light border-secondary" id="message"
+                                            name="message" rows="5" placeholder="How can I help?"></textarea>
+                                    </div>
+
+                                    <button class="btn btn-light fw-semibold align-self-start"
+                                        type="submit">Send</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="card">
-                        <h3>Links</h3>
-                        <ul class="list">
-                            <li><a class="link" href="mailto:you@email.com">you@email.com</a></li>
-                            <li><a class="link" href="https://github.com/USERNAME" target="_blank"
-                                    rel="noopener">GitHub</a></li>
-                            <li><a class="link" href="https://linkedin.com/in/USERNAME" target="_blank"
-                                    rel="noopener">LinkedIn</a></li>
-                        </ul>
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-light border border-secondary-subtle shadow-sm rounded-4 h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-semibold mb-3">Links</h3>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <a class="link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-light"
+                                            href="mailto:you@email.com">you@email.com</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a class="link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-light"
+                                            href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-light"
+                                            href="https://linkedin.com/in/USERNAME" target="_blank"
+                                            rel="noopener">LinkedIn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="container footer-inner">
-                <span class="muted">© <span id="year"></span> Viktor Shvets</span>
-                <a class="link" href="#top">Back to top ↑</a>
+        <!-- Footer -->
+        <footer class="py-4 border-top border-secondary-subtle">
+            <div class="container d-flex flex-wrap gap-2 justify-content-between align-items-center">
+                <span class="text-secondary">© <span id="year"></span> Viktor Shvets</span>
+                <a class="text-light text-decoration-none" href="#top">Back to top ↑</a>
             </div>
         </footer>
     </main>
 
+    <!-- Bootstrap JS (needed for collapse mobile menu) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
     <script>
-        const burger = document.querySelector(".burger");
-        const menu = document.querySelector("#mobileMenu");
-
-        burger?.addEventListener("click", () => {
-            const isOpen = burger.getAttribute("aria-expanded") === "true";
-            burger.setAttribute("aria-expanded", String(!isOpen));
-            menu.hidden = isOpen;
-        });
-
-        menu?.querySelectorAll("a").forEach(a => {
-            a.addEventListener("click", () => {
-                burger.setAttribute("aria-expanded", "false");
-                menu.hidden = true;
-            });
-        });
-
         document.querySelector("#year").textContent = new Date().getFullYear();
     </script>
 </body>
