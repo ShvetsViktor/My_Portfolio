@@ -1,17 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktor Shvets | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
-<body>
+<body id="top">
+    <!-- Header -->
     <header class="site-header">
-        <a class="brand" href="#top">Viktor Shvets</a>
+        <a class="brand" href="#top" aria-label="Go to top">Viktor Shvets</a>
 
-        <nav class="nav">
+        <nav class="nav" aria-label="Primary navigation">
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#about">About</a>
@@ -19,13 +21,231 @@
         </nav>
 
         <div class="actions">
-            <a class="btn" href="/cv.pdf" target="_blank" rel="noopener">CV</a>
-            <a class="icon" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
-            <a class="icon" href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+            <a class="icon" href="https://github.com/USERNAME" target="_blank" rel="noopener"
+                aria-label="GitHub">GitHub</a>
+            <a class="icon" href="https://linkedin.com/in/USERNAME" target="_blank" rel="noopener"
+                aria-label="LinkedIn">LinkedIn</a>
+
+            <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="section hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Software Tester • Junior Frontend Developer</p>
+                    <h1>I ship clean UI and reliable releases.</h1>
+                    <p class="lead">
+                        I combine testing mindset with frontend work: clear layout, predictable behavior, and
+                        quality-focused delivery.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a class="btn" href="#projects">View projects</a>
+                        <a class="btn btn-ghost" href="#contact">Contact</a>
+                    </div>
+
+                    <div class="meta">
+                        <span>📍 England</span><span>•</span><span>Open to remote</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card-title">Quick snapshot</h2>
+                    <ul class="list">
+                        <li>Testing: Jira, TestRail, Postman, DevTools, Selenium</li>
+                        <li>Frontend: HTML, CSS/SCSS, JavaScript, React (basics)</li>
+                        <li>Backend: Python (Django), PHP, SQL</li>
+                        <li>Deploy: Git, Docker, Cloudflare Pages</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Projects</h2>
+                    <p class="muted">Replace Demo/GitHub links with your real ones.</p>
+                </div>
+
+                <div class="grid">
+                    <article class="card project">
+                        <h3>Love Running</h3>
+                        <p class="muted">Landing page + gallery + sign-up page.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Demo</a>
+                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>API Testing Pack</h3>
+                        <p class="muted">Postman collection + sample test scenarios.</p>
+                        <div class="tags">
+                            <span class="tag">Postman</span><span class="tag">REST</span><span
+                                class="tag">Testing</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>One-page Portfolio</h3>
+                        <p class="muted">Anchors, responsive layout, and clean UI.</p>
+                        <div class="tags">
+                            <span class="tag">Responsive</span><span class="tag">HTML</span><span class="tag">CSS</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Demo</a>
+                            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Skills</h2>
+                    <p class="muted">Grouped, practical, and easy to scan.</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <ul class="list">
+                            <li>HTML, CSS, SCSS, responsive layout</li>
+                            <li>JavaScript, React (basics)</li>
+                            <li>UI/UX basics, Figma</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Testing & Tools</h3>
+                        <ul class="list">
+                            <li>Jira, TestRail, DevTools</li>
+                            <li>Postman / SoapUI, REST APIs</li>
+                            <li>Selenium (basics), Git, Docker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-head">
+                    <h2>About</h2>
+                    <p class="muted">A short, human summary.</p>
+                </div>
+
+                <div class="card">
+                    <p class="p">
+                        I’m a Software Tester transitioning into frontend/full-stack work. I enjoy clean layouts,
+                        predictable UI behavior,
+                        and delivering changes with confidence. I build projects consistently and improve them
+                        iteratively.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Contact</h2>
+                    <p class="muted">This form is UI-only (no backend). You can switch to mailto or a form service
+                        later.</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Send a message</h3>
+                        <form class="form" action="#" method="post">
+                            <label>
+                                Name
+                                <input type="text" name="name" placeholder="Your name" />
+                            </label>
+
+                            <label>
+                                Email
+                                <input type="email" name="email" placeholder="you@email.com" />
+                            </label>
+
+                            <label>
+                                Message
+                                <textarea name="message" rows="5" placeholder="How can I help?"></textarea>
+                            </label>
+
+                            <button class="btn" type="submit">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h3>Links</h3>
+                        <ul class="list">
+                            <li><a class="link" href="mailto:you@email.com">you@email.com</a></li>
+                            <li><a class="link" href="https://github.com/USERNAME" target="_blank"
+                                    rel="noopener">GitHub</a></li>
+                            <li><a class="link" href="https://linkedin.com/in/USERNAME" target="_blank"
+                                    rel="noopener">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <span class="muted">© <span id="year"></span> Viktor Shvets</span>
+                <a class="link" href="#top">Back to top ↑</a>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        const burger = document.querySelector(".burger");
+        const menu = document.querySelector("#mobileMenu");
+
+        burger?.addEventListener("click", () => {
+            const isOpen = burger.getAttribute("aria-expanded") === "true";
+            burger.setAttribute("aria-expanded", String(!isOpen));
+            menu.hidden = isOpen;
+        });
+
+        menu?.querySelectorAll("a").forEach(a => {
+            a.addEventListener("click", () => {
+                burger.setAttribute("aria-expanded", "false");
+                menu.hidden = true;
+            });
+        });
+
+        document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
