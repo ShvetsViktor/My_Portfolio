@@ -16,26 +16,32 @@
 
 <body id="top" class="bg-dark text-light">
     <!-- Header -->
-    <header class="sticky-top border-bottom border-secondary-subtle bg-dark bg-opacity-75 backdrop-blur">
+    <header class="border-bottom border-secondary-subtle bg-dark">
         <div class="container py-3 d-flex align-items-center justify-content-between gap-3">
+            <!-- Brand -->
             <a class="fw-semibold text-decoration-none text-light" href="#top">Viktor Shvets</a>
 
-            <nav class="d-none d-lg-flex align-items-center gap-3" aria-label="Primary navigation">
-                <a class="nav-link px-2 text-light-emphasis" href="#projects">Projects</a>
-                <a class="nav-link px-2 text-light-emphasis" href="#skills">Skills</a>
-                <a class="nav-link px-2 text-light-emphasis" href="#about">About</a>
-                <a class="nav-link px-2 text-light-emphasis" href="#contact">Contact</a>
+            <!-- NAV: visible on tablet+desktop (md and up) -->
+            <nav class="d-none d-md-flex align-items-center gap-3" aria-label="Primary navigation">
+                <a class="nav-link px-2 text-light opacity-75" href="#projects">Projects</a>
+                <a class="nav-link px-2 text-light opacity-75" href="#skills">Skills</a>
+                <a class="nav-link px-2 text-light opacity-75" href="#about">About</a>
+                <a class="nav-link px-2 text-light opacity-75" href="#contact">Contact</a>
             </nav>
 
+            <!-- Right side -->
             <div class="d-flex align-items-center gap-2">
-                <a class="btn btn-light fw-semibold" href="cv.pdf" target="_blank" rel="noopener">CV</a>
-                <a class="btn btn-outline-light" href="https://github.com/USERNAME" target="_blank"
-                    rel="noopener">GitHub</a>
-                <a class="btn btn-outline-light" href="https://linkedin.com/in/USERNAME" target="_blank"
-                    rel="noopener">LinkedIn</a>
+                <!-- Buttons: visible on tablet+desktop (md and up) -->
+                <div class="d-none d-md-flex align-items-center gap-2">
+                    <a class="btn btn-light fw-semibold" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+                    <a class="btn btn-outline-light" href="https://github.com/USERNAME" target="_blank"
+                        rel="noopener">GitHub</a>
+                    <a class="btn btn-outline-light" href="https://linkedin.com/in/USERNAME" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                </div>
 
-                <!-- Mobile menu button -->
-                <button class="btn btn-outline-light d-lg-none" type="button" data-bs-toggle="collapse"
+                <!-- Burger: visible on mobile only (below md) -->
+                <button class="btn btn-outline-light d-md-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false"
                     aria-label="Toggle menu">
                     Menu
@@ -43,17 +49,27 @@
             </div>
         </div>
 
-        <!-- Mobile menu -->
-        <div class="collapse d-lg-none border-top border-secondary-subtle" id="mobileMenu">
+        <!-- Mobile menu: only on mobile (below md) -->
+        <div class="collapse d-md-none border-top border-secondary-subtle" id="mobileMenu">
             <div class="container py-2 d-flex flex-column gap-1">
-                <a class="nav-link text-light-emphasis" href="#projects" data-bs-toggle="collapse"
+                <!-- Nav links -->
+                <a class="nav-link text-light" href="#projects" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu">Projects</a>
-                <a class="nav-link text-light-emphasis" href="#skills" data-bs-toggle="collapse"
+                <a class="nav-link text-light" href="#skills" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu">Skills</a>
-                <a class="nav-link text-light-emphasis" href="#about" data-bs-toggle="collapse"
+                <a class="nav-link text-light" href="#about" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu">About</a>
-                <a class="nav-link text-light-emphasis" href="#contact" data-bs-toggle="collapse"
+                <a class="nav-link text-light" href="#contact" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu">Contact</a>
+
+                <!-- Optional: buttons in burger (если хочешь) -->
+                <div class="d-flex flex-wrap gap-2 pt-2">
+                    <a class="btn btn-light fw-semibold" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+                    <a class="btn btn-outline-light" href="https://github.com/USERNAME" target="_blank"
+                        rel="noopener">GitHub</a>
+                    <a class="btn btn-outline-light" href="https://linkedin.com/in/USERNAME" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                </div>
             </div>
         </div>
     </header>
