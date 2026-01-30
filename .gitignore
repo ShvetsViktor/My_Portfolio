@@ -1,0 +1,20 @@
+# --- OS files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- VS Code ---
+.vscode/
+
+# --- Logs ---
+*.log
+
+# --- Environment files ---
+.env
+.env.*
+
+# --- Build artifacts (if you ever add tooling) ---
+node_modules/
+dist/
+build/
+.cache/

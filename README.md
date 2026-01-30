@@ -16,7 +16,7 @@ This project is a **single-page** portfolio website built with **HTML5** and **C
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
 
-> **Status:** Strategy phase complete. This README is designed to be expanded during development with implementation evidence, testing results, screenshots, and final deployment verification.
+> **Status:** Sceleton phase complete. Wireframes completed (1440/1280/768/375). Surface design in progress.
 
 ## Table of Contents
 
@@ -192,14 +192,42 @@ Planned section order:
 - Headings communicate structure clearly
 - Background styling never competes with foreground content
 
-## Skeleton
+## Skeleton / Wireframes
 
-### Wireframes (Planned / In Progress)
-- `assets/wireframes/hero.png`
-- `assets/wireframes/sections.png`
-- `assets/wireframes/projects.png`
-- `assets/wireframes/contact.png`
-- `assets/wireframes/404.png` (Optional)
+<details>
+  <summary><b>Wireframes (Mobile → Desktop, 4 breakpoints)</b></summary>
+
+  <table>
+    <tr>
+      <td align="center" valign="top"><b>375 (Mobile)</b></td>
+      <td align="center" valign="top"><b>768 (Tablet)</b></td>
+      <td align="center" valign="top"><b>1280 (Laptop)</b></td>
+      <td align="center" valign="top"><b>1440 (Desktop)</b></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <a href="assets/wireframes/home-mobile-375.png">
+          <img src="assets/wireframes/home-mobile-375.png" width="180" alt="Home Mobile 375">
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="assets/wireframes/home-tablet-768.png">
+          <img src="assets/wireframes/home-tablet-768.png" width="180" alt="Home Tablet 768">
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="assets/wireframes/home-laptop-1280.png">
+          <img src="assets/wireframes/home-laptop-1280.png" width="180" alt="Home Laptop 1280">
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="assets/wireframes/home-desktop-1440.png">
+          <img src="assets/wireframes/home-desktop-1440.png" width="180" alt="Home Desktop 1440">
+        </a>
+      </td>
+    </tr>
+  </table>
+</details>
 
 ### Layout Approach
 - Mobile-first layout
@@ -477,3 +505,7 @@ This checklist is a progress tracker for the project requirements.
 - [ ] Evidence of testing at all stages + end testing; evaluation of remaining bugs
 - [ ] Deviations from UX best practice identified and justified
 - [ ] Commit history clearly evidences and justifies development decisions
+
+To do:
+
+- To import a font.
