@@ -48,8 +48,8 @@
 
     <!-- header -->
     <header id="hero" class="container">
-        <!-- section with hero image. mb-5 class overrides my-64 partially as intended to match Figma designs -->
-        <section class="row my-64 mb-5">
+        <!-- section with hero image. -->
+        <section class="row my-64">
             <div class="col-12">
                 <h2 class="mb-20 text-center">Viktor Shvets</h2>
                 <h1 class="mb-20 text-center">Frontend Developer</h1>
@@ -58,9 +58,13 @@
                     background, I ship clean interfaces with strong attention to detail, accessibility, and reliability.
                 </p>
             </div>
-            <div class="d-flex justify-content-start gap-4">
-                <button class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</button>
-                <button class="btn btn-brand btn-brand-secondary" href="#contact">Contact</button>
+            <div class="d-flex justify-content-start gap-3 mb-5">
+                <a class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</a>
+                <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- img-fluid class makes the image responsive to its container -->
+                <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
             </div>
         </section>
     </header>
@@ -72,11 +76,6 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h2>About Viktor</h2>
-                </div>
-                <!-- mb-4 used to add margin under image -->
-                <div class="col-12 col-md-6 mb-4">
-                    <!-- img-fluid class makes the image responsive to its container -->
-                    <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
                 </div>
                 <!-- mb-4 used to add margin under text -->
                 <div class="col-12 col-md-6 mb-4">
