@@ -64,6 +64,11 @@ h5 {
     /* 20px */
 }
 
+.pt-20 {
+    padding-top: 1.25rem;
+    /* 20px */
+}
+
 /* custom styles for bootstrap btn */
 
 /* Common brand btn */

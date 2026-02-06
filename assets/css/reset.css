@@ -1,0 +1,38 @@
+/* Minimal reset / normalize layer (Bootstrap-friendly) */
+
+/* 1) Predictable sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2) Remove default margins without nuking Bootstrap spacing utilities */
+body {
+    margin: 0;
+}
+
+/* 3) Media elements behave nicely */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Text overflow safety */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
