@@ -17,7 +17,7 @@ This project is a **single-page** portfolio website built with **HTML5** and **C
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
 
-> **Status:** Coding completed. Texting is in progress.
+> **Status:** Coding completed. Testing is in progress.
 
 ## Table of Contents
 
