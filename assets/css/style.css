@@ -216,3 +216,8 @@ body {
     pointer-events: none;
     user-select: none;
 }
+
+/* Remove extra side paddings in the protfolio container */
+#portfolio.container {
+    --bs-gutter-x: 0;
+}
