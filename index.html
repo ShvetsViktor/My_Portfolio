@@ -47,24 +47,28 @@
     </nav>
 
     <!-- header -->
-    <header id="hero" class="container">
+    <header id="hero">
         <!-- section with hero image. -->
-        <section class="row py-64">
-            <div class="col-12">
-                <h2 class="mb-20 text-center">Viktor Shvets</h2>
-                <h1 class="mb-20 text-center">Frontend Developer</h1>
-                <p class="mb-4 text-justify">
-                    I build responsive, user-focused websites with HTML, CSS, JavaScript, and React. With a QA
-                    background, I ship clean interfaces with strong attention to detail, accessibility, and reliability.
-                </p>
-            </div>
-            <div class="d-flex justify-content-start gap-3 mb-5">
-                <a class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</a>
-                <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
-            </div>
-            <div class="col-12 col-md-6">
-                <!-- img-fluid class makes the image responsive to its container -->
-                <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
+        <section class="container py-64">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="mb-20 text-center">Viktor Shvets</h2>
+                    <h1 class="mb-20 text-center">Frontend Developer</h1>
+                    <p class="mb-4 text-justify">
+                        I build responsive, user-focused websites with HTML, CSS, JavaScript, and React. With a QA
+                        background, I ship clean interfaces with strong attention to detail, accessibility, and
+                        reliability.
+                    </p>
+                    <!-- Buttons in flex container -->
+                    <div class="d-flex justify-content-start gap-3 mb-5">
+                        <a class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</a>
+                        <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- img-fluid class makes the image responsive to its container -->
+                    <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
+                </div>
             </div>
         </section>
     </header>
@@ -75,14 +79,20 @@
         <section id="about" class="container py-64">
             <div class="row">
                 <div class="col-12">
-                    <h4>Precision-first</h4>
+                    <!-- Inline style to match the Figma design -->
+                    <p class="mb-3" style="font-weight: 600;">Precision-first</p>
                     <h2>Reliable by design</h2>
                 </div>
                 <div class="col-12">
-                    <p>
+                    <p class="mb-4 text-justify"">
                         My QA and healthcare background shaped a calm, detail-driven mindset—focused on reliability and
-                        doing things right the first time.
+                        doing things right.
                     </p>
+                </div>
+                <!-- Buttons in flex container -->
+                <div class=" col-12 d-flex justify-content-start gap-3 mb-5">
+                        <a href="#skills" class="btn btn-brand btn-brand-primary">Skills</a>
+                        <a href="#resume" class="btn btn-brand btn-brand-secondary">Resume</a>
                 </div>
             </div>
         </section>

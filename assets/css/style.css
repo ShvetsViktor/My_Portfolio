@@ -12,7 +12,7 @@ body {
 
 /* ===== Rewriting Headings to match Figma designs ===== */
 
-/* H1 (36px / 120%) Reducing size for SEO */
+/* H1 (36px / 120%) Smaller visually, but semantically a H1. */
 h1 {
     font-weight: 400;
     font-size: 2.25rem;
@@ -105,9 +105,17 @@ h5 {
     text-align: justify;
 }
 
+/* Class for the full name in the navbar */
 .brand-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+}
+
+/* media query for reassigning x-padding on mobile */
+@media (max-width: 575.98px) {
+    .container {
+        --bs-gutter-x: 40px;
+    }
 }
