@@ -1,6 +1,5 @@
 # Portfolio Website – Web Developer Portfolio
 
-![Mockup image](assets/mockups/mockups.webp)
 ![Mockup image](assets/mockups/mockup2.webp)
 
 <details open>
