@@ -1,6 +1,6 @@
 # Portfolio Website – Web Developer Portfolio
 
-![Mockup image](assets/images/readme-mockup.png)
+![Mockup image](assets/images/readme-mockup.webp)
 
 <details open>
   <summary><strong>Live Website</strong></summary>
