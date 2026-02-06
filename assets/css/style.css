@@ -65,7 +65,8 @@ h5 {
 }
 
 /* custom styles for bootstrap btn */
-/* общая геометрия для твоих кнопок */
+
+/* Common brand btn */
 .btn-brand {
     --bs-btn-padding-y: 10px;
     --bs-btn-padding-x: 24px;
@@ -86,13 +87,12 @@ h5 {
     --bs-btn-focus-shadow-rgb: 30, 144, 255;
 }
 
-/*  secondary brand btn */
+/*  Secondary brand btn */
 .btn-brand-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: rgba(255, 255, 255, .10);
     /* opacity-white-10 */
     --bs-btn-border-color: rgba(255, 255, 255, .20);
-    /* "transparent" border, подбери */
 
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: rgba(255, 255, 255, .16);
@@ -101,7 +101,14 @@ h5 {
     --bs-btn-focus-shadow-rgb: 255, 255, 255;
 }
 
-/* custom class for justifying text */
+/* class for justifying text where needed*/
 .text-justify {
     text-align: justify;
+}
+
+.brand-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
