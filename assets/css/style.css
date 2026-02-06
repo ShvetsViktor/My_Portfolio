@@ -274,3 +274,31 @@ body {
     min-height: 180px;
     resize: none;
 }
+
+/* Footer links look like your design (white, no underline) */
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: rgba(255, 255, 255, .6);
+}
+
+/* Icon links */
+.footer-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Divider like in screenshot */
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, .18);
+}
