@@ -51,6 +51,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -354,45 +357,54 @@
 
     <footer class="py-5 text-center text-white">
         <div class="container">
-            <!-- <div class="mb-4">
-                Link to the homepage in the footer with custom class added to match the design and inline style to remove underline and increase letter spacing
-                <a class="brand-name" style="text-decoration: none; letter-spacing: 0.02em;" href="index.html">Viktor
-                    Shvets</a>
-            </div> -->
 
-            <!-- Links -->
-            <nav class="d-flex flex-column gap-3 align-items-center mb-5">
-                <a class="footer-link" href="#about">About</a>
-                <a class="footer-link" href="#skills">Skills</a>
-                <a class="footer-link" href="#portfolio">Projects</a>
-                <a class="footer-link" href="#contact">Contact</a>
-                <a class="footer-link" href="#resume">Resume</a>
-            </nav>
+            <!-- TOP ROW (lg+: logo | links | social) -->
+            <div class="d-flex flex-column align-items-center gap-4
+                flex-lg-row justify-content-lg-between align-items-lg-center
+                text-lg-start">
 
-            <!-- Social -->
-            <div class="d-flex justify-content-center gap-4 mb-5">
-                <a class="footer-icon" href="#" aria-label="Facebook">
-                    <img src="assets/icons/facebook.svg" alt="" width="28" height="28">
+                <!-- Name (hidden on mobile, shown on lg+) -->
+                <a class="brand-name d-none d-lg-block" href="index.html"
+                    style="text-decoration:none; letter-spacing:0.02em;">
+                    Viktor Shvets
                 </a>
-                <a class="footer-icon" href="#" aria-label="Instagram">
-                    <img src="assets/icons/instagram.svg" alt="" width="28" height="28">
-                </a>
-                <a class="footer-icon" href="#" aria-label="X">
-                    <img src="assets/icons/x.svg" alt="" width="28" height="28">
-                </a>
-                <a class="footer-icon" href="#" aria-label="LinkedIn">
-                    <img src="assets/icons/linkedin.svg" alt="" width="28" height="28">
-                </a>
-                <a class="footer-icon" href="#" aria-label="YouTube">
-                    <img src="assets/icons/youtube.svg" alt="" width="28" height="28">
-                </a>
+
+                <!-- Links -->
+                <nav class="d-flex flex-column gap-3 align-items-center
+                  flex-lg-row gap-lg-4 mb-0">
+                    <a class="footer-link" href="#about">About</a>
+                    <a class="footer-link" href="#skills">Skills</a>
+                    <a class="footer-link" href="#portfolio">Projects</a>
+                    <a class="footer-link" href="#contact">Contact</a>
+                    <a class="footer-link" href="#resume">Resume</a>
+                </nav>
+
+                <!-- Social -->
+                <div class="d-flex justify-content-center gap-4 mb-0">
+                    <a class="footer-icon" href="#" aria-label="Facebook">
+                        <img src="assets/icons/facebook.svg" alt="" width="28" height="28">
+                    </a>
+                    <a class="footer-icon" href="#" aria-label="Instagram">
+                        <img src="assets/icons/instagram.svg" alt="" width="28" height="28">
+                    </a>
+                    <a class="footer-icon" href="#" aria-label="X">
+                        <img src="assets/icons/x.svg" alt="" width="28" height="28">
+                    </a>
+                    <a class="footer-icon" href="#" aria-label="LinkedIn">
+                        <img src="assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                    <a class="footer-icon" href="#" aria-label="YouTube">
+                        <img src="assets/icons/youtube.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+
             </div>
 
             <!-- Divider -->
-            <hr class="footer-divider my-0">
+            <hr class="footer-divider my-4">
 
             <!-- Copyright -->
-            <p class="mt-4 mb-0 text-white-50">
+            <p class="mb-0 text-white-50 text-center">
                 © 2026 Viktor Shvets Portfolio
             </p>
 
