@@ -1,6 +1,7 @@
 # Portfolio Website – Web Developer Portfolio
 
-![Mockup image](assets/images/readme-mockup.webp)
+![Mockup image](assets/mockups/mockups.webp)
+![Mockup image](assets/mockups/mockup2.webp)
 
 <details open>
   <summary><strong>Live Website</strong></summary>
@@ -16,7 +17,7 @@ This project is a **single-page** portfolio website built with **HTML5** and **C
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
 
-> **Status:** Design phase completed. Coding is in progress.
+> **Status:** Coding completed. Texting is in progress.
 
 ## Table of Contents
 
@@ -242,6 +243,9 @@ Planned section order:
 - Neutral palette with one accent colour for CTAs/links
 - Typography chosen for readability
 - Consistent style for graphics and icons
+
+### Link to Figma Designs
+- https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&t=ZgBdYsM2Ve70heRQ-1
 
 ## Development Plan
 
