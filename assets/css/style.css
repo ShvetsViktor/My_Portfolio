@@ -221,3 +221,56 @@ body {
 #portfolio.container {
     --bs-gutter-x: 0;
 }
+
+/* Make links color white inside contact section */
+#contact {
+    --bs-link-color: #fff;
+    --bs-link-hover-color: #fff;
+    --bs-link-color-rgb: 255, 255, 255;
+}
+
+#contact a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+#contact a:hover,
+#contact a:focus {
+    text-decoration: underline;
+}
+
+/* Inputs: white 10% background */
+#contact .form-control,
+#contact .form-select,
+#contact textarea.form-control {
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #fff;
+
+    border-radius: 6px;
+    padding: 12px;
+}
+
+/* Focus without frame a bit brighter */
+#contact .form-control:focus,
+#contact .form-select:focus,
+#contact textarea.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+/* Placeholder */
+#contact .form-control::placeholder,
+#contact textarea.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+    opacity: 1;
+}
+
+/* Textarea height to match Figma */
+#contact textarea.form-control {
+    min-height: 180px;
+    resize: none;
+}
