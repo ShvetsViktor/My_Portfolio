@@ -1,12 +1,12 @@
 # Portfolio Website – Web Developer Portfolio
 
-![Mockup image](assets/images/mockup.png)
+![Mockup image](assets/images/readme-mockup.png)
 
 <details open>
   <summary><strong>Live Website</strong></summary>
 
-- **Live site:** https://<your-github-username>.github.io/<your-repo-name>  
-- **Repository:** https://github.com/<your-github-username>/<your-repo-name>
+- **Live site:** https://shvetsviktor.github.io/My_Portfolio/ 
+- **Repository:** https://github.com/ShvetsViktor/My_Portfolio
 
 </details>
 
@@ -16,7 +16,7 @@ This project is a **single-page** portfolio website built with **HTML5** and **C
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
 
-> **Status:** Sceleton phase complete. Wireframes completed (1440/1280/768/375). Surface design in progress.
+> **Status:** Design phase completed. Coding is in progress.
 
 ## Table of Contents
 
@@ -379,6 +379,8 @@ This section will be updated during implementation with screenshots aligned to r
 - Custom 404 (Optional)
 
 ## Technologies Used
+
+- Bootstrap 5.3
 
 ### Planned Languages
 - HTML5
