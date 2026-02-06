@@ -1,0 +1,107 @@
+/* ===== Base (background + typography from Figma) ===== */
+body {
+    background: #092B4C;
+
+    /* Body text (16px / 150% / 400) */
+    font-weight: 400;
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5;
+    /* 150% */
+}
+
+/* ===== Rewriting Headings to match Figma designs ===== */
+
+/* H1 (36px / 120%) Reducing size for SEO */
+h1 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    /* 36px */
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+/* H2 (40px / 120%) */
+h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    /* 40px */
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+/* H4 (24px / 130%) */
+h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    /* 24px */
+    line-height: 1.3;
+    /* 130% */
+    letter-spacing: 0.02em;
+}
+
+/* H5 (20px / 140%) */
+h5 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.4;
+    /* 140% */
+}
+
+/* ===== Custom styles ===== */
+
+/* custom paddings */
+.my-64 {
+    margin: 4rem 0;
+    /* 64px */
+}
+
+.mb-20 {
+    margin-bottom: 1.25rem;
+    /* 20px */
+}
+
+/* custom styles for bootstrap btn */
+/* общая геометрия для твоих кнопок */
+.btn-brand {
+    --bs-btn-padding-y: 10px;
+    --bs-btn-padding-x: 24px;
+    --bs-btn-border-radius: 6px;
+    min-height: 44px;
+}
+
+/*  Primary brand btn */
+.btn-brand-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1E90FF;
+    --bs-btn-border-color: #1E90FF;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1877d3;
+    --bs-btn-hover-border-color: #1877d3;
+
+    --bs-btn-focus-shadow-rgb: 30, 144, 255;
+}
+
+/*  secondary brand btn */
+.btn-brand-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(255, 255, 255, .10);
+    /* opacity-white-10 */
+    --bs-btn-border-color: rgba(255, 255, 255, .20);
+    /* "transparent" border, подбери */
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(255, 255, 255, .16);
+    --bs-btn-hover-border-color: rgba(255, 255, 255, .28);
+
+    --bs-btn-focus-shadow-rgb: 255, 255, 255;
+}
+
+/* custom class for justifying text */
+.text-justify {
+    text-align: justify;
+}
