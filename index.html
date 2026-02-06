@@ -52,9 +52,8 @@
         </div>
     </nav>
 
-    <!-- header -->
     <header id="hero">
-        <!-- section with hero image. -->
+        <!-- Section with hero image -->
         <section class="container py-64">
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -71,6 +70,7 @@
                         <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
                     </div>
                 </div>
+                <!-- Image -->
                 <div class="col-12 col-md-6">
                     <!-- img-fluid class makes the image responsive to its container -->
                     <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
@@ -79,7 +79,6 @@
         </section>
     </header>
 
-    <!-- main content -->
     <main>
         <!-- About section -->
         <section id="about" class="container py-64">
@@ -96,7 +95,7 @@
                     </p>
                 </div>
                 <!-- Buttons in flex container -->
-                <div class=" col-12 d-flex justify-content-start gap-3 mb-5">
+                <div class=" col-12 d-flex justify-content-start gap-3">
                         <a href="#skills" class="btn btn-brand btn-brand-primary">Skills</a>
                         <a href="#resume" class="btn btn-brand btn-brand-secondary">Resume</a>
                 </div>
@@ -156,72 +155,110 @@
                         Jira.</p>
                 </div>
                 <!-- Buttons in flex container -->
-                <div class="mt-5 col-12 d-flex justify-content-center gap-3 mb-5">
-                    <a href="#portfolio" class="btn btn-brand btn-brand-primary">Portfolio</a>
-                    <a href="#contact" class="btn btn-brand btn-brand-secondary">Contact</a>
+                <div class="mt-5 col-12 d-flex justify-content-center gap-3">
+                    <a href="#portfolio" class="btn btn-brand btn-brand-secondary">Portfolio</a>
+                    <a href="#contact" class="btn btn-brand btn-link-cta" style="padding-left: 15px;">Contact ></a>
                 </div>
             </div>
         </section>
+
         <!-- Portfolio section -->
-        <section id="portfolio" class="container mb-5">
+        <section id="portfolio" class="container py-64">
             <div class="container">
                 <div class="row gap-4 justify-content-evenly">
-                    <!-- Centered title -->
                     <div class="col-12 text-center">
-                        <p>My Works</p>
+                        <!-- Centered title, -->
+                        <!-- Inline style to match the Figma design -->
+                        <p style="font-weight: 600;">Portfolio</p>
+                        <h2 class="pb-3">Work built with care</h2>
+                        <p>Each project reflects precision and attention to detail</p>
                     </div>
-                    <!-- first card -->
-                    <div class="card col-12 col-md-6 col-lg-3 col-xl-4" style="width: 18rem;">
-                        <img src="assets/images/koi4sale.webp" class="card-img-top" alt="koi for sale website image">
-                        <div class="card-body">
-                            <h5 class="card-title">Koi 4 Sale</h5>
-                            <p class="card-text">Koi4Sale is a responsive marketing site for a koi fish store, built
-                                with Next.js 15 (SSR), React 19, TypeScript, and Tailwind CSS 4 with TailGrids
-                                components, featuring a light/dark theme toggle via next-themes, smooth UI
-                                animations with Framer Motion, fast on-site search powered by Fuse.js, and email
-                                workflows using Resend and React Email.</p>
-                            <a href="https://koi4sale.vercel.app/" class="btn btn-outline-secondary">Visit Site</a>
+                    <!-- First card -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-4 px-0">
+                        <div class="card">
+                            <img src="assets/images/koi4sale.webp" class="card-img-top" alt="koi for sale website image"
+                                style="width: 100%; height: auto; display: block; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Koi For Sale</h5>
+                                <p class="card-text mb-3">
+                                    Koi4Sale is a responsive marketing site for a koi fish store with server-rendered
+                                    pages, light/dark theme switching,
+                                    fast on-site search, smooth UI animations, and email/contact flows.
+                                </p>
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Next.js</span>
+                                    <span class="tag">Tailwind</span>
+                                </div>
+                                <a href="https://koi4sale.vercel.app/" class="btn btn-link-cta">View project ></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- second card -->
-                    <div class="card col-12 col-md-6 col-lg-3 col-xl-4" style="width: 18rem;">
-                        <img src="assets/images/marvel-info.webp" class="card-img-top" alt="marvel info website image">
-                        <div class="card-body">
-                            <h5 class="card-title">Marvel Info</h5>
-                            <p class="card-text">Marvel Info Portal is a responsive single-page application built
-                                with React 18 and Vite, showcasing Marvel characters and comics with dynamic routing
-                                via React Router DOM v6.1. The UI is styled with SCSS/Sass using a BEM-oriented
-                                structure, includes error boundaries for reliability, and is deployed on Vercel.</p>
-                            <a href="https://marvel-inf0.vercel.app/" class="btn btn-outline-secondary">Visit
-                                Site</a>
+
+                    <!-- Second card -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-4 px-0">
+                        <div class="card">
+                            <img src="assets/images/marvel-info.webp" class="card-img-top"
+                                alt="marvel info website image"
+                                style="width: 100%; height: auto; display: block; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Marvel Info</h5>
+                                <p class="card-text mb-3">
+                                    Marvel Info Portal is a responsive single-page application showcasing Marvel
+                                    characters and comics with dynamic routing.
+                                </p>
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Vite</span>
+                                    <span class="tag">SCSS</span>
+                                </div>
+                                <a href="https://marvel-inf0.vercel.app/" class="btn btn-link-cta">View project ></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- third card -->
-                    <div class="card col-12 col-md-6 col-lg-3 col-xl-4" style="width: 18rem;">
-                        <img src="assets/images/monovision.webp" class="card-img-top" alt="monovision website image">
-                        <div class="card-body">
-                            <h5 class="card-title">Monovision</h5>
-                            <p class="card-text">Monovision Studio is a static, responsive landing page built with
-                                semantic HTML5 and modern CSS/SCSS, focused on clean layout structure, adaptive
-                                imagery, and scalable grid-based design for mobile, tablet, and desktop. It follows
-                                a Figma-driven workflow and is deployed on GitHub Pages.</p>
-                            <a href="https://shvetsviktor.github.io/monovision/src/"
-                                class="btn btn-outline-secondary">Visit
-                                Site</a>
+
+                    <!-- Third card -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-4 px-0">
+                        <div class="card">
+                            <img src="assets/images/monovision.webp" class="card-img-top" alt="monovision website image"
+                                style="width: 100%; height: auto; display: block; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Monovision</h5>
+                                <p class="card-text mb-3">
+                                    Monovision Studio is a static, responsive landing page focused on clean layout
+                                    structure, adaptive imagery, and scalable design.
+                                </p>
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">SCSS</span>
+                                    <span class="tag">Responsive</span>
+                                </div>
+                                <a href="https://shvetsviktor.github.io/monovision/src/" class="btn btn-link-cta">View
+                                    project ></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- forth card -->
-                    <div class="card col-12 col-md-6 col-lg-3 col-xl-4" style="width: 18rem;">
-                        <img src="assets/images/ceramic-soul.webp" class="card-img-top"
-                            alt="ceramic soul website image">
-                        <div class="card-body">
-                            <h5 class="card-title">Ceramic Soul</h5>
-                            <p class="card-text">Ceramic Soul is an in-progress, responsive static website built
-                                with semantic HTML5, modular SCSS (Sass), and modern JavaScript (ES6+), featuring an
-                                interactive image slider powered by Swiper.js. The project uses Vite for a fast
-                                development/build workflow and is deployed on Vercel.</p>
-                            <a href="https://ceramic-soul-zeta.vercel.app/" class="btn btn-outline-secondary">Visit
-                                Site</a>
+
+                    <!-- Forth card -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-4 px-0">
+                        <div class="card">
+                            <img src="assets/images/ceramic-soul.webp" class="card-img-top"
+                                alt="ceramic soul website image"
+                                style="width: 100%; height: auto; display: block; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Ceramic Soul</h5>
+                                <p class="card-text mb-3">
+                                    Ceramic Soul is an in-progress, responsive static website featuring modular styling
+                                    and an interactive image slider.
+                                </p>
+                                <div class="d-flex gap-2 mb-3">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">SCSS</span>
+                                    <span class="tag">JavaScript</span>
+                                </div>
+                                <a href="https://ceramic-soul-zeta.vercel.app/" class="btn btn-link-cta">View project
+                                    ></a>
+                            </div>
                         </div>
                     </div>
                 </div>

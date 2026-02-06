@@ -1,3 +1,25 @@
+/* ===== Global reset ===== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Force remove default margins/paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
 /* ===== Base (background + typography from Figma) ===== */
 body {
     background: #092B4C;
@@ -69,7 +91,7 @@ h5 {
     /* 20px */
 }
 
-/* custom styles for bootstrap btn */
+/* ==== Custom styles for bootstrap btn ===== */
 
 /* Common brand btn */
 .btn-brand {
@@ -105,7 +127,29 @@ h5 {
     --bs-btn-focus-shadow-rgb: 255, 255, 255;
 }
 
-/* class for justifying text where needed*/
+/* Link-style CTA like in Figma */
+.btn-link-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 0;
+    min-height: auto;
+
+    background: transparent;
+    border: 0;
+
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Link-style CTA like in Figma -- Hover */
+.btn-link-cta:hover {
+    text-decoration: underline;
+}
+
+/* Class for justifying text where needed */
 .text-justify {
     text-align: justify;
 }
@@ -118,7 +162,7 @@ h5 {
     color: #FFFFFF;
 }
 
-/* media query for reassigning x-padding on mobile */
+/* Media query for reassigning x-padding on mobile */
 @media (max-width: 575.98px) {
     .container {
         --bs-gutter-x: 40px;
@@ -131,4 +175,44 @@ h5 {
 
 body {
     font-family: var(--bs-font-sans-serif);
+}
+
+/* Reassign bootstrap card properties */
+.card {
+    overflow: hidden;
+    border-radius: 0rem;
+    background-color: #0C3966;
+    border: 0;
+}
+
+/* Image: full width, no rounding */
+.card-img-top {
+    /* margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%; */
+    border-radius: 0 !important;
+}
+
+
+/* Tag class for highlighting skills */
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4px 10px;
+    height: 29px;
+    border-radius: 4px;
+
+    background: rgba(255, 255, 255, .10);
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+
+    pointer-events: none;
+    user-select: none;
 }
