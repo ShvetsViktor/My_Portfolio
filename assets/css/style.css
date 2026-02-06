@@ -54,9 +54,9 @@ h5 {
 /* ===== Custom styles ===== */
 
 /* custom paddings */
-.my-64 {
-    margin: 4rem 0;
-    /* 64px */
+.py-64 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .mb-20 {
