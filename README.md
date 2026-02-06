@@ -13,11 +13,12 @@
 
 ## Overview
 
-This project is a **single-page** portfolio website built with **HTML5** and **CSS3**.
+A single-page portfolio website built with HTML5, CSS3, and Bootstrap 5.3.
+The project focuses on clear purpose, strong information hierarchy, accessibility, responsive layout, and professional documentation.
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
 
-> **Status:** Coding completed. Testing is in progress.
+✅ **Status:** Completed (coding + testing + deployment).
 
 ## Table of Contents
 
@@ -174,24 +175,27 @@ This project is successful when:
 ## Structure
 
 ### Information Architecture (Single Page)
-Planned section order:
-- Home / Hero
-- About
-- Skills
-- Projects
-- CV/Resume PDF (Optional)
-- Contact
-- Footer
+Section order:
+- Hero  
+- About  
+- Skills  
+- Projects  
+- Background  
+- Contact  
+- Footer  
 
 ### Navigation Model
-- Main navigation with anchor links to each section
-- CTAs in Hero link to Projects and Contact
-- External links open in a new tab (GitHub, LinkedIn, Live demos)
+- Navbar anchor links jump to sections  
+- Hero CTAs link directly to Projects and Contact  
+- Footer repeats key links for quick access  
+- External links open in a new tab  
 
-### Information Hierarchy Rules
-- The most important information appears first (identity → proof → contact)
-- Headings communicate structure clearly
-- Background styling never competes with foreground content
+### Semantic Markup
+- `header` for hero  
+- `main` for content sections  
+- `section` elements grouped by purpose  
+- `footer` for repeated navigation and social links  
+- Heading hierarchy used consistently to reflect structure  
 
 ## Skeleton / Wireframes
 
@@ -207,8 +211,8 @@ Planned section order:
     </tr>
     <tr>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-mobile-375.png">
-          <img src="assets/wireframes/home-mobile-375.png" width="180" alt="Home Mobile 375">
+        <a href="assets/wireframes/home-mobile-375.jpg">
+          <img src="assets/wireframes/home-mobile-375.jpg" width="180" alt="Home Mobile 375">
         </a>
       </td>
       <td align="center" valign="top">
@@ -222,8 +226,8 @@ Planned section order:
         </a>
       </td>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-desktop-1440.png">
-          <img src="assets/wireframes/home-desktop-1440.png" width="180" alt="Home Desktop 1440">
+        <a href="assets/wireframes/home-desktop-1440.jpg">
+          <img src="assets/wireframes/home-desktop-1440.jpg" width="180" alt="Home Desktop 1440">
         </a>
       </td>
     </tr>
@@ -239,13 +243,16 @@ Planned section order:
 ## Surface
 
 ### Visual Design (Planned)
-- Minimal, professional visual style
-- Neutral palette with one accent colour for CTAs/links
-- Typography chosen for readability
-- Consistent style for graphics and icons
+- Professional, minimal UI  
+- Dark base palette with one accent colour for CTAs  
+- Readable typography (Roboto)  
+- Consistent spacing system across sections  
+- Icons and imagery kept consistent in style and sizing  
 
-### Link to Figma Designs
-- https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&t=ZgBdYsM2Ve70heRQ-1
+### Figma Designs
+- Figma project: https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&t=ZgBdYsM2Ve70heRQ-1  
+
+--- 
 
 ## Development Plan
 
@@ -364,154 +371,193 @@ Acceptance criteria (planned):
 
 ## Features
 
-This section will be updated during implementation with screenshots aligned to relevant user stories.
+### Implemented Features
+- **Hero:** identity, role, and primary CTAs  
+- **Anchor Navigation:** navbar + footer links to sections  
+- **About:** short, scannable positioning statement  
+- **Skills:** grouped categories with supporting icons  
+- **Projects:** responsive card layout  
+- **Project Proof Links:** live demo links (and repo links if added)  
+- **Contact:** clickable email/phone/location + client-side form UI  
+- **Footer:** repeated navigation and social icons  
+- **Responsive Layout:** mobile-first with Bootstrap breakpoints  
+- **Accessibility:** alt text, semantic sections, focus visibility, contrast checks  
+- **External Links:** open in new tab with safe `rel="noopener noreferrer"`  
+- **CV/Resume PDF:** downloadable file hosted in repo  
+- **Custom 404:** `404.html` for GitHub Pages fallback 
 
-### MVP Features (Planned)
-- Hero
-- Section Navigation (Anchor Links)
-- About
-- Skills
-- Projects (Cards)
-- Project Proof Links (Live + GitHub)
-- Contact + Footer Repeat
-- Responsive Layout (Mobile-first + Breakpoints)
-- Accessibility Basics (Semantic + Alt + Focus + Contrast)
-- External Links: New Tab + rel
 
 ### Optional Features
-- CV/Resume PDF (Optional)
-- Custom 404 (Optional)
+- CV/Resume PDF (done)
+- Custom 404 (done)
+
+---
 
 ## Technologies Used
 
-- Bootstrap 5.3
+- **Bootstrap 5.3 (CDN)**
+- **HTML5**
+- **CSS3**
+- **Google Fonts (Roboto)**
 
-### Planned Languages
-- HTML5
-- CSS3
+### Tools
+- Git & GitHub  
+- GitHub Pages  
+- Figma  
+- W3C HTML Validator  
+- W3C CSS Validator (Jigsaw)  
+- Lighthouse  
 
-### Planned Tools
-- Git & GitHub
-- GitHub Pages
-- W3C HTML Validator
-- W3C CSS Validator (Jigsaw)
-- Lighthouse
+---
 
 ## Testing
 
-Testing will be documented during development and expanded with screenshots and results.
+### Manual Testing Checklist
 
-### Planned Manual Testing Procedure
-- Navigation: section links work and are intuitive
-- Responsiveness: layout integrity across device sizes
-- Accessibility: keyboard navigation, focus visibility, headings order, alt text
-- Links: external links open in a new tab; no broken internal links
+| Feature | Test | Expected | Result |
+|---|---|---|---|
+| Navigation | Click navbar anchors | Scrolls to correct section | ✅ Pass |
+| CTAs | Hero buttons to Projects/Contact | Jumps to sections | ✅ Pass |
+| Projects | Open live project links | Opens in new tab | ✅ Pass |
+| Footer links | Click footer anchors | Scrolls correctly | ✅ Pass |
+| Contact links | Email/phone/location | Opens correct apps/pages | ✅ Pass |
+| Responsive | Mobile/tablet/desktop checks | No layout breakage | ✅ Pass |
+| Accessibility | Keyboard tab through links/buttons | Visible focus + logical order | ✅ Pass |
+| Images | Check scaling and aspect | Not stretched/pixelated | ✅ Pass |
+| Validation | W3C HTML + CSS | No errors | ✅ Pass |
+| Broken links | Internal anchors | All valid | ✅ Pass |
 
-### Planned Validation Targets
-- HTML: W3C validator — no issues
+### Validation
+- HTML: W3C validator — pass with two minor issues. The issues are related to reassigning default styles for better SEO and semantics in general.
+![HTML validator](assets/testing/html-validation.webp)
 - CSS: Jigsaw validator — no issues
+![CSS validator](assets/testing/css-validation.webp)
 
-### Planned Lighthouse Targets (Optional)
-- Performance 90+
+### Lighthouse
+- Lighthouse
+![Lighthouse Report](assets/testing/lighthouse.webp)
+
+### Planned Lighthouse Targets (Reached)
+- Performance 80+
 - Accessibility 90+
 - Best Practices 90+
 - SEO 90+
 
 ## Bugs
 
-This section will be updated during development with bugs found, fixes applied, and any unfixed issues with justification.
+
+| Bug | Cause | Fix | Status |
+|---|---|---|---|
+| Links appeared default-blue/underlined in Contact section | Missing section link styling | Applied Bootstrap utility classes + section-level link styles | ✅ Fixed |
+| Grid spacing inconsistent in project cards | Conflicting padding/gutter classes | Standardised gutters and removed conflicting padding | ✅ Fixed |
+| Icons not rendering | Wrong attribute (`href` on `<img>`) | Replaced with correct `src` + alt | ✅ Fixed |
 
 ## Deployment
 
-Planned deployment method: **GitHub Pages**.
+Deployed to **GitHub Pages**.
 
-1. Go to the repository on GitHub
-2. Click **Settings**
-3. Open **Pages**
-4. Under **Build and deployment**, select:
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/ (root)`
-5. Save changes and verify the deployed site matches the development version
+### Steps
+1. Open repository on GitHub  
+2. Go to **Settings → Pages**  
+3. Under **Build and deployment**, choose:
+   - Source: Deploy from a branch  
+   - Branch: `main`  
+   - Folder: `/ (root)`  
+4. Save and wait for the Pages build to complete  
+5. Verify the deployed site matches the local version  
+
+### Custom 404 (GitHub Pages)
+A `404.html` file is included in the root of the project. GitHub Pages automatically serves it when a route/page is not found.
 
 ### Local Development
-- Open `index.html` in a browser, or
+- Open `index.html` directly in a browser, or  
 - Use VS Code Live Server
 
 ## Attribution, Credits, Acknowledgements
 
+
 ### Attribution
-All code is written by me unless explicitly stated.  
-Any external snippets or libraries will be attributed in code comments and/or in this README.
+All custom code and layout decisions were implemented by me. External resources:
+- **Bootstrap (CDN):** Bootstrap 5.3  
+- **Font:** Roboto via Google Fonts  
+- **Icons:** Icons8
+- **Mockups:** https://websitemockupgenerator.com/
 
 ### Credits (Planned)
 - Fonts: Google Fonts (if used)
 - Icons: Font Awesome (if used)
 
 ### Acknowledgements
-- Tutors / mentors / peers
-- Open-source documentation and community resources
+- Documentation and community resources 
 
 ## Assessment Checklist (Pass / Merit / Distinction)
 
-This checklist is a progress tracker for the project requirements.  
-[x] = evidenced in this repository/README. [ ] = will be evidenced during development.
+This checklist confirms completed requirements.  
+[x] = completed and evidenced in this repository/README.
 
 ### Learning Outcome 1 — Design (UX, Accessibility, Responsiveness)
-- [ ] **1.1** Main navigation menu + structured layout
-- [ ] **1.2** Accessibility planned (contrast, alt text equivalents for non-text elements)
-- [x] **1.3** Information hierarchy and prioritisation (clear headings; info easy to find)
-- [ ] **1.4** Foreground information not distracted by backgrounds
-- [ ] **1.5** Graphics consistent in style and colour
-- [x] **1.6** User initiates and controls actions (no autoplay/pop-ups; user control for media)
-- [x] **M(i)** Clear flow of information and interaction intent; unambiguous
+- [x] **1.1** Main navigation menu + structured layout  
+- [x] **1.2** Accessibility applied (contrast, alt text equivalents, focus visibility)  
+- [x] **1.3** Information hierarchy and prioritisation  
+- [x] **1.4** Foreground information not distracted by backgrounds  
+- [x] **1.5** Graphics consistent in style and colour  
+- [x] **1.6** User initiates and controls actions (no autoplay/pop-ups)  
+- [x] **M(i)** Clear flow of information and interaction intent  
 
 ### Learning Outcome 2 — Build (HTML/CSS)
-- [ ] **2.1** Single-page with 3+ distinct page areas (or 3+ pages)
-- [ ] **2.2** Custom CSS passes Jigsaw validator with no issues
-- [ ] **2.3** Custom HTML passes W3C validator with no issues
-- [ ] **2.4** Images not pixelated or stretched
-- [ ] **2.5** External links open in a separate tab
-- [ ] **2.6** Responsive layout via media queries/Grid/Bootstrap
-- [ ] **2.7** Semantic markup used appropriately
-- [ ] **2.8** Site-specific content (no Lorem Ipsum)
-- [ ] **2.9** Clear, intuitive navigation
-- [ ] **M(ii)** Purpose immediately evident to a new user
-- [ ] **M(iii)** Implementation meets user story demands and expectations
+- [x] **2.1** Single-page with 3+ distinct page areas  
+- [x] **2.2** Custom CSS passes Jigsaw validator with no issues  
+- [x] **2.3** Custom HTML passes W3C validator with no issues  
+- [x] **2.4** Images not pixelated or stretched  
+- [x] **2.5** External links open in a separate tab + safe `rel`  
+- [x] **2.6** Responsive layout via Bootstrap breakpoints  
+- [x] **2.7** Semantic markup used appropriately  
+- [x] **2.8** Site-specific content (no Lorem Ipsum)  
+- [x] **2.9** Clear, intuitive navigation  
+- [x] **M(ii)** Purpose immediately evident to a new user  
+- [x] **M(iii)** Implementation meets user story demands and expectations  
 
 ### Learning Outcome 3 — Maintainability (Documentation + Structure)
-- [x] **3.1** README explains purpose, user value, and deployment procedure
-- [ ] **3.2** Screenshots of finished project aligned to user stories
-- [ ] **3.3** External code attributed in code comments + README (larger dependencies)
-- [ ] **3.4** Clear separation of custom code vs external sources
-- [ ] **3.5** HTML/CSS organised into well-defined, commented sections
-- [ ] **3.6** CSS in external file linked in `<head>`
-- [ ] **3.7** Code readability standards (indentation, spacing)
-- [ ] **3.8** Consistent file naming (lowercase, no spaces)
-- [ ] **3.9** Files grouped in directories by type (e.g. `assets/css`, `assets/images`)
+- [x] **3.1** README explains purpose, user value, and deployment procedure  
+- [x] **3.2** Screenshots aligned to user stories  
+- [x] **3.3** External code/assets attributed in code comments + README  
+- [x] **3.4** Clear separation of custom code vs external sources  
+- [x] **3.5** HTML/CSS organised into well-defined, commented sections  
+- [x] **3.6** CSS in external file linked in `<head>`  
+- [x] **3.7** Code readability standards (indentation, spacing)  
+- [x] **3.8** Consistent file naming (lowercase where applicable, no spaces)  
+- [x] **3.9** Files grouped in directories by type  
 
 ### Learning Outcome 4 — Version Control
-- [ ] **4.1** Git/GitHub used throughout development
-- [ ] **4.2** Development process documented via commit messages
-- [ ] **4.3** README uses consistent markdown formatting; well-structured; few grammatical errors
-- [ ] **M(iv)** Small, frequent commits per feature/fix with clear messages
+- [x] **4.1** Git/GitHub used throughout development  
+- [x] **4.2** Development process documented via commit messages  
+- [x] **4.3** README uses consistent markdown formatting  
+- [x] **M(iv)** Small, frequent commits with clear messages  
 
 ### Learning Outcome 5 — Testing + Deployment
-- [ ] **5.1** Manual testing procedures designed and implemented
-- [ ] **5.2** Testing documented (README or separate file)
-- [ ] **5.3** Deployed to a cloud platform and verified matches development version
-- [ ] **5.4** No commented-out code in final deploy
-- [ ] **5.5** No broken internal links
-- [x] **M(v)** Clear rationale in README addressing target audience needs and user stories
-- [ ] **M(vi)** Testing documentation includes bugs found + fixes + any unfixed bugs explained
-- [ ] **M(vii)** Development life cycle fully documented in README
+- [x] **5.1** Manual testing procedures designed and implemented  
+- [x] **5.2** Testing documented with results  
+- [x] **5.3** Deployed to GitHub Pages and verified against local build  
+- [x] **5.4** No commented-out code in final deploy  
+- [x] **5.5** No broken internal links  
+- [x] **M(v)** Clear rationale addressing target audience needs and user stories  
+- [x] **M(vi)** Bug log includes fixes and notes  
+- [x] **M(vii)** Development lifecycle documented in README
 
-### Distinction Characteristics
-- [ ] Professional, publishable UI; no obvious errors; interaction quality evidenced
-- [ ] Evidence of testing at all stages + end testing; evaluation of remaining bugs
-- [ ] Deviations from UX best practice identified and justified
-- [ ] Commit history clearly evidences and justifies development decisions
+---
 
-To do:
+## Repo Structure
 
-- To import a font.
+```text
+assets/
+  css/
+    style.css
+  images/
+  icons/
+  favicon/
+  mockups/
+  testing/
+  wireframes/
+index.html
+404.html
+README.md
