@@ -119,3 +119,11 @@ h5 {
         --bs-gutter-x: 40px;
     }
 }
+
+:root {
+    --bs-font-sans-serif: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
