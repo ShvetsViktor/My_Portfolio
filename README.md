@@ -338,14 +338,13 @@ Acceptance criteria (planned):
 As a visitor, I want to quickly find projects so I can evaluate examples of work.  
 Acceptance criteria (planned):
 - Projects are reachable via navigation and hero CTAs
-- Each project includes Live + GitHub links
+- Each project includes Live
 - Projects have short, scannable descriptions
 
 **US3 — Contact**  
 As a visitor, I want an easy way to contact the developer so I can reach out without friction.  
 Acceptance criteria (planned):
 - Email is clickable (`mailto:`)
-- LinkedIn/GitHub links are clear and accessible
 - Contact is easy to reach from anywhere (navigation and/or footer)
 
 **US4 — Skills scan**  
