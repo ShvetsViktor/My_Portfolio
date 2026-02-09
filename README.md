@@ -2,13 +2,10 @@
 
 ![Mockup image](assets/mockups/mockup2.webp)
 
-<details open>
   <summary><strong>Live Website</strong></summary>
 
 - **Live site:** https://shvetsviktor.github.io/My_Portfolio/ 
-- **Repository:** https://github.com/ShvetsViktor/My_Portfolio
 
-</details>
 
 ## Overview
 
@@ -46,7 +43,7 @@ It follows a **user-centred front-end development** approach: the focus is on cl
 
 ### User Goals
 - Understand who I am and what role I’m targeting quickly
-- Find projects easily and access proof (Live / GitHub)
+- Find projects easily
 - Scan skills at a glance
 - Find contact details with minimal effort
 - Have a smooth experience on any device
@@ -68,7 +65,7 @@ It follows a **user-centred front-end development** approach: the focus is on cl
 
 Visitors should be able to:
 - Confirm identity + role within 30–60 seconds
-- Find Projects quickly and verify proof (Live + GitHub)
+- Find Projects quickly
 - Scan skills without reading long paragraphs
 - Contact me in one step
 - Navigate comfortably on mobile, tablet, and desktop
@@ -95,8 +92,8 @@ This project is successful when:
 ## Strategy
 
 ### Business Goals (Site Owner)
-- Increase recruiter interaction (email / LinkedIn contact)
-- Provide proof of skills through projects and GitHub
+- Increase recruiter interaction
+- Provide proof of skills through projects
 - Maintain a clean, credible, accessible UI
 
 ### Primary User Goals
@@ -110,7 +107,7 @@ This project is successful when:
 - **About**
 - **Skills**
 - **Projects (Cards)**
-- **Project Proof Links (Live + GitHub)**
+- **Project Proof Links**
 - **Contact + Footer Repeat**
 - **Responsive Layout (Mobile-first + Breakpoints)**
 - **Accessibility Basics (Semantic + Alt + Focus + Contrast)**
@@ -125,7 +122,7 @@ This project is successful when:
 |---|---:|---:|---:|
 | Hero | 5 | 5 | 25 |
 | Projects (Cards) | 5 | 5 | 25 |
-| Project Proof Links (Live + GitHub) | 5 | 5 | 25 |
+| Project Proof Links | 5 | 5 | 25 |
 | Contact + Footer Repeat | 5 | 5 | 25 |
 | Responsive Layout (Mobile-first + Breakpoints) | 5 | 4 | 20 |
 | Skills | 4 | 5 | 20 |
@@ -144,7 +141,7 @@ This project is successful when:
 - **About**
 - **Skills**
 - **Projects (Cards)**
-- **Project Proof Links (Live + GitHub)**
+- **Project Proof Links**
 - **Contact + Footer Repeat**
 - **Responsive Layout (Mobile-first + Breakpoints)**
 - **Accessibility Basics (Semantic + Alt + Focus + Contrast)**
@@ -338,7 +335,7 @@ Acceptance criteria (planned):
 As a visitor, I want to quickly find projects so I can evaluate examples of work.  
 Acceptance criteria (planned):
 - Projects are reachable via navigation and hero CTAs
-- Each project includes Live
+- Each project includes a link to Live site
 - Projects have short, scannable descriptions
 
 **US3 — Contact**  
@@ -401,7 +398,8 @@ Acceptance criteria (planned):
 ### Tools
 - Git & GitHub  
 - GitHub Pages  
-- Figma  
+- Figma
+- Relume
 - W3C HTML Validator  
 - W3C CSS Validator (Jigsaw)  
 - Lighthouse  
@@ -422,7 +420,7 @@ Acceptance criteria (planned):
 | Responsive | Mobile/tablet/desktop checks | No layout breakage | ✅ Pass |
 | Accessibility | Keyboard tab through links/buttons | Visible focus + logical order | ✅ Pass |
 | Images | Check scaling and aspect | Not stretched/pixelated | ✅ Pass |
-| Validation | W3C HTML + CSS | No errors | ✅ Pass |
+| Validation | W3C HTML + CSS | No critical errors | ✅ Pass |
 | Broken links | Internal anchors | All valid | ✅ Pass |
 
 ### Validation
@@ -477,13 +475,11 @@ A `404.html` file is included in the root of the project. GitHub Pages automatic
 ### Attribution
 All custom code and layout decisions were implemented by me. External resources:
 - **Bootstrap (CDN):** Bootstrap 5.3  
-- **Font:** Roboto via Google Fonts  
+- **Font:** Roboto sans-serif via Google Fonts  
 - **Icons:** Icons8
 - **Mockups:** https://websitemockupgenerator.com/
-
-### Credits (Planned)
-- Fonts: Google Fonts (if used)
-- Icons: Font Awesome (if used)
+- **Wireframes:** https://www.relume.io/
+- **High-fidelity design:** https://www.relume.io/
 
 ### Acknowledgements
 - Documentation and community resources 

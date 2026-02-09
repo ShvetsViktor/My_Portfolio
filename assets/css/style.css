@@ -118,7 +118,6 @@ h5 {
 .btn-brand-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: rgba(255, 255, 255, .10);
-    /* opacity-white-10 */
 
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: rgba(255, 255, 255, .16);
@@ -185,12 +184,8 @@ body {
     border: 0;
 }
 
-/* Image: full width, no rounding */
+/* Remove border-radius on cards */
 .card-img-top {
-    /* margin: 0;
-    padding: 0;
-    display: block;
-    width: 100%; */
     border-radius: 0 !important;
 }
 
