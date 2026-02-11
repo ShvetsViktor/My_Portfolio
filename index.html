@@ -140,9 +140,8 @@
                     <div class="col-12 mt-5">
                         <div class="d-flex justify-content-center gap-4 flex-nowrap">
                             <img src="assets/icons/react.svg" alt="React" width="48" height="48">
-                            <!-- Inline style for highlighting the dark logo on the dark background -->
                             <img src="assets/icons/next-js.svg" alt="next-js" width="48" height="48"
-                                style="filter: invert(1) brightness(1.2);">
+                                class="icon-dark-mode">
                             <img src="assets/icons/git.svg" alt="git" width="48" height="48">
                             <img src="assets/icons/figma.svg" alt="figma" width="48" height="48">
                         </div>
@@ -154,12 +153,11 @@
                 <div>
                     <div class="col-12 mt-5">
                         <div class="d-flex justify-content-center gap-4 flex-nowrap">
-                            <!-- Inline style for highlighting the dark logo on the dark background -->
                             <img src="assets/icons/testing.webp" alt="Testing icon" width="48" height="48"
-                                style="filter: invert(1) brightness(1.2);">
+                                class="icon-dark-mode">
                             <img src="assets/icons/postman.webp" alt="Postman icon" width="48" height="48">
                             <img src="assets/icons/jira.svg" alt="Jira icon" width="48" height="48"
-                                style="filter: brightness(2.2);">
+                                class="icon-dark-mode">
                         </div>
                     </div>
                     <h4 class="pt-20 mb-20">Quality assurance mindset</h4>
@@ -187,7 +185,7 @@
                     </div>
                     <!-- First card -->
                     <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="card h-100 d-flex flex-column">
+                        <article class="card h-100 d-flex flex-column">
                             <img src="assets/images/koi4sale.webp" class="card-img-top" alt="koi for sale website image"
                                 style="width: 100%; height: auto; display: block; object-fit: cover;">
                             <div class="card-body d-flex flex-column">
@@ -206,12 +204,12 @@
                                     rel="noopener noreferrer">View
                                     project ></a>
                             </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Second card -->
                     <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="card h-100 d-flex flex-column">
+                        <article class="card h-100 d-flex flex-column">
                             <img src="assets/images/marvel-info.webp" class="card-img-top"
                                 alt="marvel info website image"
                                 style="width: 100%; height: auto; display: block; object-fit: cover;">
@@ -230,12 +228,12 @@
                                     target="_blank" rel="noopener noreferrer">View
                                     project ></a>
                             </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Third card -->
                     <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="card h-100 d-flex flex-column">
+                        <article class="card h-100 d-flex flex-column">
                             <img src="assets/images/monovision.webp" class="card-img-top" alt="monovision website image"
                                 style="width: 100%; height: auto; display: block; object-fit: cover;">
                             <div class="card-body d-flex flex-column">
@@ -253,12 +251,12 @@
                                     class="btn btn-link-cta mt-auto" target="_blank" rel="noopener noreferrer">View
                                     project ></a>
                             </div>
-                        </div>
+                        </article>
                     </div>
 
-                    <!-- Forth card -->
+                    <!-- Fourth card -->
                     <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="card h-100 d-flex flex-column">
+                        <article class="card h-100 d-flex flex-column">
                             <img src="assets/images/ceramic-soul.webp" class="card-img-top"
                                 alt="ceramic soul website image"
                                 style="width: 100%; height: auto; display: block; object-fit: cover;">
@@ -277,7 +275,7 @@
                                     target="_blank" rel="noopener noreferrer">View project
                                     ></a>
                             </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -340,24 +338,28 @@
                 <div class="col-12 col-lg-6">
                     <!-- Contact Form -->
                     <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
-                        </div>
+                        <fieldset>
+                            <legend class="visually-hidden">Contact Information</legend>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" autocomplete="name"
+                                    required>
+                            </div>
 
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" autocomplete="email"
-                                required>
-                            <div class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" autocomplete="email"
+                                    required>
+                                <div class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
 
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" placeholder="Write your message" name="message"
-                                rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-brand btn-brand-primary">Send</button>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" placeholder="Write your message"
+                                    name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-brand btn-brand-primary">Send</button>
+                        </fieldset>
                     </form>
                 </div>
             </div>

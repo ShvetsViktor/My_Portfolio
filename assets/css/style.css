@@ -1,4 +1,8 @@
-/* ===== Global reset ===== */
+/* ============================================
+   RESET & BASE
+   ============================================ */
+
+/* Global reset: box-sizing for all elements */
 *,
 *::before,
 *::after {
@@ -20,7 +24,7 @@ ol {
     padding: 0;
 }
 
-/* ===== Base (background + typography from Figma) ===== */
+/* Base (background + typography from Figma) */
 body {
     background: #092B4C;
 
@@ -32,7 +36,9 @@ body {
     /* 150% */
 }
 
-/* ===== Rewriting Headings to match Figma designs ===== */
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
 
 /* H1 (36px / 120%) Smaller visually, but semantically a H1. */
 h1 {
@@ -73,9 +79,12 @@ h5 {
     /* 140% */
 }
 
-/* ===== Custom styles ===== */
+/* ============================================
+   UTILITIES
+   ============================================ */
 
-/* custom paddings */
+/* Padding utilities: maintain consistent spacing rhythm across sections.
+   .py-64 = 4rem (64px) top+bottom padding, matching Figma design system. */
 .py-64 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -91,7 +100,21 @@ h5 {
     /* 20px */
 }
 
-/* ==== Custom styles for bootstrap btn ===== */
+/* Text utilities */
+.text-justify {
+    text-align: justify;
+}
+
+/* Icon helper: brightens dark logos on dark backgrounds */
+.icon-dark-mode {
+    filter: invert(1) brightness(1.2);
+}
+
+/* ============================================
+   COMPONENTS
+   ============================================ */
+
+/* Bootstrap button customization */
 
 /* Common brand btn */
 .btn-brand {
@@ -148,12 +171,7 @@ h5 {
     text-decoration: underline;
 }
 
-/* Class for justifying text where needed */
-.text-justify {
-    text-align: justify;
-}
-
-/* Class for the full name in the navbar */
+/* Brand name styling for navbar and footer */
 .brand-name {
     font-weight: 500;
     font-size: 20px;
@@ -176,7 +194,11 @@ body {
     font-family: var(--bs-font-sans-serif);
 }
 
-/* Reassign bootstrap card properties */
+/* ============================================
+   SECTIONS
+   ============================================ */
+
+/* Card styling */
 .card {
     overflow: hidden;
     border-radius: 0rem;
@@ -190,7 +212,7 @@ body {
 }
 
 
-/* Tag class for highlighting skills */
+/* Skill tags in project cards */
 .tag {
     display: inline-flex;
     align-items: center;
