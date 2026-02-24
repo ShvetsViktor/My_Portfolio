@@ -21,4 +21,4 @@ build/
 
 # --- Copilot instructions file ---
 
-copilot-indtructions.md
+.github/copilot-instructions.md
