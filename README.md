@@ -2,9 +2,7 @@
 
 ![Mockup image](assets/mockups/mockup2.webp)
 
-  <summary><strong>Live Website - https://shvetsviktor.github.io/My_Portfolio/</strong></summary>
-
-
+**Live Website:** https://shvetsviktor.github.io/My_Portfolio/
 
 ## Overview
 
@@ -401,6 +399,26 @@ Acceptance criteria (planned):
 
 ## Testing
 
+### Screenshots (Aligned to User Stories)
+
+> Screenshots below are from the **finished deployed website** and provide evidence against the user stories.
+
+- **US1 — Identity & role (Hero above the fold)**  
+  ![US1 — Hero](assets/testing/us1-hero-desktop.webp)
+
+- **US2 — Projects & proof links (Projects section + external links)**  
+  ![US2 — Projects](assets/testing/us2-projects-desktop.webp)
+
+- **US3 — Contact (contact methods visible and clickable)**  
+  ![US3 — Contact](assets/testing/us3-contact-mobile.webp)
+
+- **US4 — Skills scan (skills grouped and scannable)**  
+  ![US4 — Skills](assets/testing/us4-skills-desktop.webp)
+
+- **US5 — Responsive experience (mobile + desktop)**  
+  ![US5 — Mobile](assets/testing/us5-responsive-mobile.webp)  
+  ![US5 — Desktop](assets/testing/us5-responsive-desktop.webp)
+
 ### Manual Testing Checklist
 
 | Feature | Test | Expected | Result |
@@ -472,6 +490,7 @@ All custom code and layout decisions were implemented by me. External resources:
 - **Icons:** Icons8
 - **Wireframes & Mockups:** https://www.relume.io/
 - **ChatGPT:** AI-assisted copy drafting (reviewed and edited by me)
+- **[TinyPNG](https://tinypng.com/):** Image optimisation
 
 ### Acknowledgements
 
