@@ -206,13 +206,13 @@ They use a **light theme** and **draft content** to focus on layout and informat
     </tr>
     <tr>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-mobile-375.png">
-          <img src="assets/wireframes/home-mobile-375.png" width="180" alt="Home wireframe — mobile (375px)">
+        <a href="assets/wireframes/home-mobile-375.jpg">
+          <img src="assets/wireframes/home-mobile-375.jpg" width="180" alt="Home wireframe — mobile (375px)">
         </a>
       </td>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-desktop-1440.png">
-          <img src="assets/wireframes/home-desktop-1440.png" width="180" alt="Home wireframe — desktop (1440px)">
+        <a href="assets/wireframes/home-desktop-1440.jpg">
+          <img src="assets/wireframes/home-desktop-1440.jpg" width="180" alt="Home wireframe — desktop (1440px)">
         </a>
       </td>
     </tr>
