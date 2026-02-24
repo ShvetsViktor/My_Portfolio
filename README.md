@@ -459,23 +459,25 @@ Deployed to **GitHub Pages**.
 A `404.html` file is included in the root of the project. GitHub Pages automatically serves it when a route/page is not found.
 
 ### Local Development
-- Open `index.html` directly in a browser, or  
-- Use VS Code Live Server
 
-## Attribution, Credits, Acknowledgements
+- From the project root, run: **python3 -m http.server**
 
+## Attribution, Acknowledgements
 
 ### Attribution
+
 All custom code and layout decisions were implemented by me. External resources:
 - **Bootstrap (CDN):** Bootstrap 5.3  
 - **Font:** Roboto sans-serif via Google Fonts  
 - **Icons:** Icons8
-- **Mockups:** https://websitemockupgenerator.com/
-- **Wireframes:** https://www.relume.io/
-- **High-fidelity design:** https://www.relume.io/
+- **Wireframes & Mockups:** https://www.relume.io/
+- **ChatGPT:** AI-assisted copy drafting (reviewed and edited by me)
 
 ### Acknowledgements
-- Documentation and community resources 
+
+- **Bootstrap documentation:** https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- **Relume documentation:** https://www.relume.io/resources/home#site-builder
+- **MDN Web Docs (HTML/CSS):** https://developer.mozilla.org/
 
 ## Assessment Checklist (Pass / Merit / Distinction)
 
@@ -538,13 +540,13 @@ This checklist confirms completed requirements.
 ```text
 assets/
   css/
-    style.css
-  images/
-  icons/
+  cv/
   favicon/
+  icons/
+  images/
   mockups/
   testing/
   wireframes/
-index.html
 404.html
+index.html
 README.md
