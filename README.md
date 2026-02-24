@@ -192,46 +192,35 @@ Section order:
 
 ## Skeleton / Wireframes
 
+Wireframes were generated with **[Relume](https://www.relume.io/)** and then reviewed and refined in **Figma**.  
+They use a **light theme** and **draft content** to focus on layout and information hierarchy.  
+- Figma file (wireframes + mockups): https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0
+
 <details>
-  <summary><b>Wireframes (Mobile → Desktop, 4 breakpoints)</b></summary>
+  <summary><b>Wireframes (Mobile 375 → Desktop 1440)</b></summary>
 
   <table>
     <tr>
       <td align="center" valign="top"><b>375 (Mobile)</b></td>
-      <td align="center" valign="top"><b>768 (Tablet)</b></td>
-      <td align="center" valign="top"><b>1280 (Laptop)</b></td>
       <td align="center" valign="top"><b>1440 (Desktop)</b></td>
     </tr>
     <tr>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-mobile-375.jpg">
-          <img src="assets/wireframes/home-mobile-375.jpg" width="180" alt="Home Mobile 375">
+        <a href="assets/wireframes/home-mobile-375-light.png">
+          <img src="assets/wireframes/home-mobile-375-light.png" width="180" alt="Home wireframe — mobile (375px), light theme">
         </a>
       </td>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-tablet-768.png">
-          <img src="assets/wireframes/home-tablet-768.png" width="180" alt="Home Tablet 768">
-        </a>
-      </td>
-      <td align="center" valign="top">
-        <a href="assets/wireframes/home-laptop-1280.png">
-          <img src="assets/wireframes/home-laptop-1280.png" width="180" alt="Home Laptop 1280">
-        </a>
-      </td>
-      <td align="center" valign="top">
-        <a href="assets/wireframes/home-desktop-1440.jpg">
-          <img src="assets/wireframes/home-desktop-1440.jpg" width="180" alt="Home Desktop 1440">
+        <a href="assets/wireframes/home-desktop-1440-light.png">
+          <img src="assets/wireframes/home-desktop-1440-light.png" width="180" alt="Home wireframe — desktop (1440px), light theme">
         </a>
       </td>
     </tr>
   </table>
 </details>
 
-### Layout Approach
-- Mobile-first layout
-- Projects presented as cards in a responsive grid
-- Consistent spacing and clear section boundaries
-- No autoplay media; users initiate actions
+Wireframes cover the two key layouts used in development (mobile-first + wide-screen).  
+Tablet and laptop layouts were implemented and verified during build using Bootstrap breakpoints and responsive testing evidence.
 
 ## Surface
 
@@ -240,13 +229,16 @@ Section order:
 - Dark base palette with one accent colour for CTAs  
 - Readable typography (Roboto)  
 - Consistent spacing system across sections  
-- Icons and imagery kept consistent in style and sizing  
+- Icons and imagery kept consistent in style and sizing 
+
+### Style Guide
+
+A base style guide was generated with **Relume** and used as the design system foundation in **Figma** (variables + colour schemes). I then adapted it for this project (theme, components, and consistency across breakpoints).
+- Style Guide (Figma): https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=2368-52&p=f&t=cfy96xqRHufBs3Bk-0
 
 ### Figma Designs
 
-Wireframes and high-fidelity mockups were generated with **Relume**  
-https://www.relume.io/  
-and then refined in **Figma**.
+Wireframes and high-fidelity mockups were generated with **[Relume](https://www.relume.io/)** and then refined in **Figma**.  
 - Figma file: https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0
 
 --- 
