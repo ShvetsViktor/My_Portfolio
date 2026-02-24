@@ -193,10 +193,10 @@ Section order:
 ## Skeleton / Wireframes
 
 Wireframes were generated with **[Relume](https://www.relume.io/)** and then reviewed and refined in **Figma**.  
-They use a **light theme** and **draft content** to focus on layout and information hierarchy.  
-- Figma file (wireframes + mockups): https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0
+They use a **light theme** and **draft content** to focus on layout and information hierarchy.
+- **[Wireframes (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0)**
 
-<details>
+<details open>
   <summary><b>Wireframes (Mobile 375 → Desktop 1440)</b></summary>
 
   <table>
@@ -206,13 +206,13 @@ They use a **light theme** and **draft content** to focus on layout and informat
     </tr>
     <tr>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-mobile-375-light.png">
-          <img src="assets/wireframes/home-mobile-375-light.png" width="180" alt="Home wireframe — mobile (375px), light theme">
+        <a href="assets/wireframes/home-mobile-375.png">
+          <img src="assets/wireframes/home-mobile-375.png" width="180" alt="Home wireframe — mobile (375px)">
         </a>
       </td>
       <td align="center" valign="top">
-        <a href="assets/wireframes/home-desktop-1440-light.png">
-          <img src="assets/wireframes/home-desktop-1440-light.png" width="180" alt="Home wireframe — desktop (1440px), light theme">
+        <a href="assets/wireframes/home-desktop-1440.png">
+          <img src="assets/wireframes/home-desktop-1440.png" width="180" alt="Home wireframe — desktop (1440px)">
         </a>
       </td>
     </tr>
@@ -234,12 +234,12 @@ Tablet and laptop layouts were implemented and verified during build using Boots
 ### Style Guide
 
 A base style guide was generated with **Relume** and used as the design system foundation in **Figma** (variables + colour schemes). I then adapted it for this project (theme, components, and consistency across breakpoints).
-- Style Guide (Figma): https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=2368-52&p=f&t=cfy96xqRHufBs3Bk-0
+- **[Style Guide (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=2368-52&p=f&t=cfy96xqRHufBs3Bk-0)**
 
 ### Figma Designs
 
-Wireframes and high-fidelity mockups were generated with **[Relume](https://www.relume.io/)** and then refined in **Figma**.  
-- Figma file: https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0
+High-fidelity mockups were generated with **[Relume](https://www.relume.io/)** and then refined in **Figma**.
+- **[Hi-Fi Mockups (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0)**
 
 --- 
 
