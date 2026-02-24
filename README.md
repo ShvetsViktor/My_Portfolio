@@ -194,10 +194,10 @@ Section order:
 
 Wireframes were generated with **[Relume](https://www.relume.io/)** and then reviewed and refined in **Figma**.  
 They use a **light theme** and **draft content** to focus on layout and information hierarchy.
-- **[Wireframes (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0)**
+- **[Wireframes (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=12423-28627&p=f&t=cfy96xqRHufBs3Bk-0)**
 
 <details open>
-  <summary><b>Wireframes (Mobile 375 → Desktop 1440)</b></summary>
+  <summary><b>Wireframes</b></summary>
 
   <table>
     <tr>
@@ -239,7 +239,7 @@ A base style guide was generated with **Relume** and used as the design system f
 ### Figma Designs
 
 High-fidelity mockups were generated with **[Relume](https://www.relume.io/)** and then refined in **Figma**.
-- **[Hi-Fi Mockups (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0)**
+- **[Hi-Fi Mockups (Figma)](https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=cfy96xqRHufBs3Bk-0)**
 
 --- 
 
