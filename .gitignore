@@ -18,3 +18,7 @@ node_modules/
 dist/
 build/
 .cache/
+
+# --- Copilot instructions file ---
+
+copilot-indtructions.md
