@@ -1,10 +1,9 @@
-# Portfolio Website – Web Developer Portfolio
+# Portfolio Website – Frontend Developer Portfolio
 
 ![Mockup image](assets/mockups/mockup2.webp)
 
-  <summary><strong>Live Website</strong></summary>
+  <summary><strong>Live Website - https://shvetsviktor.github.io/My_Portfolio/</strong></summary>
 
-- **Live site:** https://shvetsviktor.github.io/My_Portfolio/ 
 
 
 ## Overview
@@ -13,8 +12,6 @@ A single-page portfolio website built with HTML5, CSS3, and Bootstrap 5.3.
 The project focuses on clear purpose, strong information hierarchy, accessibility, responsive layout, and professional documentation.
 
 It follows a **user-centred front-end development** approach: the focus is on clear purpose, strong information hierarchy, accessibility, responsiveness, and professional documentation.
-
-✅ **Status:** Completed (coding + testing + deployment).
 
 ## Table of Contents
 
@@ -246,7 +243,11 @@ Section order:
 - Icons and imagery kept consistent in style and sizing  
 
 ### Figma Designs
-- Figma project: https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&t=ZgBdYsM2Ve70heRQ-1  
+
+Wireframes and high-fidelity mockups were generated with **Relume**  
+https://www.relume.io/  
+and then refined in **Figma**.
+- Figma file: https://www.figma.com/design/Oum6hf6yA0UQKL5Vy5cadZ/Portfolio-v2?node-id=6383-168&p=f&t=zureZ2KKZpnTjgHN-0
 
 --- 
 
