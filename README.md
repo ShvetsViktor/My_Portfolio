@@ -387,13 +387,12 @@ Acceptance criteria (planned):
 - **Google Fonts (Roboto)**
 
 ### Tools
+
 - Git & GitHub  
 - GitHub Pages  
-- Figma
-- Relume
-- W3C HTML Validator  
-- W3C CSS Validator (Jigsaw)  
-- Lighthouse  
+- Figma  
+- Relume  
+- TinyPNG (image optimisation) 
 
 ---
 
@@ -486,17 +485,19 @@ A `404.html` file is included in the root of the project. GitHub Pages automatic
 
 All custom code and layout decisions were implemented by me. External resources:
 - **Bootstrap (CDN):** Bootstrap 5.3  
-- **Font:** Roboto sans-serif via Google Fonts  
-- **Icons:** Icons8
-- **Wireframes & Mockups:** https://www.relume.io/
+- **Font:** Roboto via Google Fonts  
+- **Icons:** Icons8  
+- **Wireframes & Mockups:** **[Relume](https://www.relume.io/)**  
 - **ChatGPT:** AI-assisted copy drafting (reviewed and edited by me)
-- **[TinyPNG](https://tinypng.com/):** Image optimisation
 
 ### Acknowledgements
 
 - **Bootstrap documentation:** https://getbootstrap.com/docs/5.3/getting-started/introduction/
-- **Relume documentation:** https://www.relume.io/resources/home#site-builder
+- **Relume documentation:** https://www.relume.io/resources
 - **MDN Web Docs (HTML/CSS):** https://developer.mozilla.org/
+- **W3C HTML Validator:** https://validator.w3.org/
+- **W3C CSS Validator (Jigsaw):** https://jigsaw.w3.org/css-validator/
+- **Lighthouse (Chrome DevTools):** https://developer.chrome.com/docs/lighthouse/overview/
 
 ## Assessment Checklist (Pass / Merit / Distinction)
 
