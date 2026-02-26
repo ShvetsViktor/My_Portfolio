@@ -434,7 +434,7 @@ Acceptance criteria (planned):
 | Broken links | Internal anchors | All valid | ✅ Pass |
 
 ### Validation
-- HTML: W3C validator — pass with two minor issues. The issues are related to reassigning default styles for better SEO and semantics in general.
+- HTML: W3C validator — no issues
 ![HTML validator](assets/testing/html-validation.webp)
 - CSS: Jigsaw validator — no issues
 ![CSS validator](assets/testing/css-validation.webp)
