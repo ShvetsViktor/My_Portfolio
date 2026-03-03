@@ -1,3 +1,11 @@
+:root {
+    --bs-font-sans-serif: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
 /* ============================================
    RESET & BASE
    ============================================ */
@@ -179,21 +187,6 @@ h5 {
     color: #FFFFFF;
 }
 
-/* Media query for reassigning x-padding on mobile */
-@media (max-width: 575.98px) {
-    .container {
-        --bs-gutter-x: 40px;
-    }
-}
-
-:root {
-    --bs-font-sans-serif: "Roboto", sans-serif;
-}
-
-body {
-    font-family: var(--bs-font-sans-serif);
-}
-
 /* ============================================
    SECTIONS
    ============================================ */
@@ -292,7 +285,7 @@ body {
     resize: none;
 }
 
-/* Footer links look like your design (white, no underline) */
+/* Footer links */
 .footer-link {
     color: #fff;
     text-decoration: none;
@@ -313,9 +306,16 @@ body {
     text-decoration: none;
 }
 
-/* Divider like in screenshot */
+/* Footer Divider */
 .footer-divider {
     border: 0;
     height: 1px;
     background: rgba(255, 255, 255, .18);
+}
+
+/* Media query for reassigning x-padding on mobile */
+@media (max-width: 575.98px) {
+    .container {
+        --bs-gutter-x: 40px;
+    }
 }
