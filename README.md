@@ -483,7 +483,6 @@ A `404.html` file is included in the root of the project. GitHub Pages automatic
 
 ### Attribution
 
-All custom code and layout decisions were implemented by me. External resources:
 - **Bootstrap (CDN):** Bootstrap 5.3  
 - **Font:** Roboto via Google Fonts  
 - **Wireframes & Mockups:** **[Relume](https://www.relume.io/)**  
@@ -491,24 +490,24 @@ All custom code and layout decisions were implemented by me. External resources:
 
 #### Icons
 
-- **HTML5 logo** By Rudloff - CSS3 and HTML5 logos and wordmarks.svg, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=49121103
-- **CSS3 logo:** By W3C, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=12736763
-- **JavaScript logo:** By Ramaksoud2000 via Chris Williams - Wikipedia via GitHub logo.js, Public Domain, https://commons.wikimedia.org/w/index.php?curid=18434372
-- **React logo:** By Facebook - https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=63239429
-- **Next.js logo:** By Vercel - nextjs.org, Public Domain, https://commons.wikimedia.org/w/index.php?curid=163168537
-- **GitHub logo:** By Jason Long, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=52567952
-- **Figma logo:** By Figma - figma.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=76030648
-- **Postman logo:** By Postman - https://res.cloudinary.com/postman/image/upload/t_team_logo/v1635105764/team/4c318dd1a76dc2ab12c3b02bbabb898573b80e4584c2437fbd29510a02101a7a?fp=1635105763797, Public Domain, https://commons.wikimedia.org/w/index.php?curid=111644512
-- **Jira logo:** By Atlassian - https://assets.ctfassets.net/8j5aqoy0ts8s/4sakpWzedtGCB5HoawpYTf/7589e4b6b7b58dad4a9ab3d06fe49401/Jira-Attribution-Lockup.zip, Public Domain, https://commons.wikimedia.org/w/index.php?curid=128030453
+- **HTML5 logo:** By Rudloff — *CSS3 and HTML5 logos and wordmarks.svg* — **CC BY 3.0** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=49121103)**
+- **CSS3 logo:** By W3C — **CC BY 3.0** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=12736763)**
+- **JavaScript logo:** By Ramaksoud2000 via Chris Williams — *Wikipedia via GitHub logo.js* — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=18434372)**
+- **React logo:** By Facebook — Source: **[raw file](https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg)** — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=63239429)**
+- **Next.js logo:** By Vercel — Source: **[nextjs.org](https://nextjs.org/)** — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=163168537)**
+- **Git logo:** By Jason Long — **CC BY 3.0** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=52567952)**
+- **Figma logo:** By Figma — Source: **[figma.com](https://www.figma.com/)** — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=76030648)**
+- **Postman logo:** By Postman — Source: **[asset](https://res.cloudinary.com/postman/image/upload/t_team_logo/v1635105764/team/4c318dd1a76dc2ab12c3b02bbabb898573b80e4584c2437fbd29510a02101a7a?fp=1635105763797)** — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=111644512)**
+- **Jira logo:** By Atlassian — Source: **[Jira Attribution Lockup](https://assets.ctfassets.net/8j5aqoy0ts8s/4sakpWzedtGCB5HoawpYTf/7589e4b6b7b58dad4a9ab3d06fe49401/Jira-Attribution-Lockup.zip)** — **Public Domain** — **[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=128030453)**
 
 ### Acknowledgements
 
-- **Bootstrap documentation:** https://getbootstrap.com/docs/5.3/getting-started/introduction/
-- **Relume documentation:** https://www.relume.io/resources
-- **MDN Web Docs (HTML/CSS):** https://developer.mozilla.org/
-- **W3C HTML Validator:** https://validator.w3.org/
-- **W3C CSS Validator (Jigsaw):** https://jigsaw.w3.org/css-validator/
-- **Lighthouse (Chrome DevTools):** https://developer.chrome.com/docs/lighthouse/overview/
+- **Bootstrap documentation:** **[getbootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)**
+- **Relume documentation:** **[relume.io/resources](https://www.relume.io/resources)**
+- **MDN Web Docs (HTML/CSS):** **[developer.mozilla.org](https://developer.mozilla.org/)**
+- **W3C HTML Validator:** **[validator.w3.org](https://validator.w3.org/)**
+- **W3C CSS Validator (Jigsaw):** **[jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)**
+- **Lighthouse (Chrome DevTools):** **[developer.chrome.com](https://developer.chrome.com/docs/lighthouse/overview/)**
 
 ## Assessment Checklist (Pass / Merit / Distinction)
 
