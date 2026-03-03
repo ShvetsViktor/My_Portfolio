@@ -31,7 +31,7 @@ It follows a **user-centred front-end development** approach: the focus is on cl
 11. [Testing](#testing)
 12. [Bugs](#bugs)
 13. [Deployment](#deployment)
-14. [Attribution, Credits, Acknowledgements](#attribution-credits-acknowledgements)
+14. [Attribution, Acknowledgements](#attribution-credits-acknowledgements)
 15. [Assessment Checklist (Pass / Merit / Distinction)](#assessment-checklist-pass--merit--distinction)
 
 ## Project Goals
@@ -486,9 +486,20 @@ A `404.html` file is included in the root of the project. GitHub Pages automatic
 All custom code and layout decisions were implemented by me. External resources:
 - **Bootstrap (CDN):** Bootstrap 5.3  
 - **Font:** Roboto via Google Fonts  
-- **Icons:** Icons8  
 - **Wireframes & Mockups:** **[Relume](https://www.relume.io/)**  
 - **ChatGPT:** AI-assisted copy drafting (reviewed and edited by me)
+
+#### Icons
+
+- **HTML5 logo** By Rudloff - CSS3 and HTML5 logos and wordmarks.svg, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=49121103
+- **CSS3 logo:** By W3C, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=12736763
+- **JavaScript logo:** By Ramaksoud2000 via Chris Williams - Wikipedia via GitHub logo.js, Public Domain, https://commons.wikimedia.org/w/index.php?curid=18434372
+- **React logo:** By Facebook - https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=63239429
+- **Next.js logo:** By Vercel - nextjs.org, Public Domain, https://commons.wikimedia.org/w/index.php?curid=163168537
+- **GitHub logo:** By Jason Long, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=52567952
+- **Figma logo:** By Figma - figma.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=76030648
+- **Postman logo:** By Postman - https://res.cloudinary.com/postman/image/upload/t_team_logo/v1635105764/team/4c318dd1a76dc2ab12c3b02bbabb898573b80e4584c2437fbd29510a02101a7a?fp=1635105763797, Public Domain, https://commons.wikimedia.org/w/index.php?curid=111644512
+- **Jira logo:** By Atlassian - https://assets.ctfassets.net/8j5aqoy0ts8s/4sakpWzedtGCB5HoawpYTf/7589e4b6b7b58dad4a9ab3d06fe49401/Jira-Attribution-Lockup.zip, Public Domain, https://commons.wikimedia.org/w/index.php?curid=128030453
 
 ### Acknowledgements
 
