@@ -272,6 +272,7 @@ This project will be delivered in **three stages** under a strict resource limit
 | 18 | Repo structure for maintainability (assets/css, assets/images, etc.) | 1 |
 | 19 | Attribution for external code/assets (if used) | 1 |
 | 20 | Lighthouse audit evidence (targets + final scores) | 2 |
+| 21 | Form Success Page (Post-MVP enhancement) | 1 |
 
 ### Stage 1 — Core Value (5 points)
 Goal: A first-time visitor can understand the purpose immediately, see proof of work, and contact me fast.
@@ -309,7 +310,15 @@ Goal: Provide clear evidence that validation and manual testing were completed.
 ### Total Complexity Used (Stages 1–3)
 **5 + 4 + 3 = 12 points (limit met)**
 
-Items not selected within the 12 points remain available as optional enhancements later (e.g., CV/Resume PDF, Custom 404, Screenshots, Bug log, Lighthouse, Repo structure, Attribution).
+Items not selected within the 12-point MVP plan were treated as optional enhancements and were implemented post-MVP:
+- CV/Resume PDF
+- Custom 404
+- Screenshots aligned to user stories
+- Bug log
+- Lighthouse audit evidence
+- Repo structure for maintainability
+- Attribution for external code/assets
+- Form Success Page (`success.html`)
 
 ## User Stories
 
@@ -347,6 +356,13 @@ Acceptance criteria (planned):
 - Layout adapts to mobile/tablet/desktop without breaking
 - Navigation remains usable on small screens
 
+**US7 — Form confirmation (Post-MVP enhancement)**  
+As a visitor, I want to see a clear confirmation after submitting the contact form so I know my message was sent.  
+Acceptance criteria:
+- After submitting the form, I am redirected to `success.html`
+- A confirmation message is visible immediately
+- The page provides clear CTAs to return to the main site (Home / Projects)
+
 ### Site Owner
 
 **US6 — Maintainability**  
@@ -372,10 +388,8 @@ Acceptance criteria (planned):
 - **CV/Resume PDF:** downloadable file hosted in repo  
 - **Custom 404:** `404.html` for GitHub Pages fallback 
 
-
-### Optional Features
-- CV/Resume PDF (done)
-- Custom 404 (done)
+### Post-MVP Enhancements
+- **Form Success Page:** Added `success.html` as a confirmation screen after form submission, including clear CTAs back to the main site.
 
 ---
 
@@ -432,6 +446,9 @@ Acceptance criteria (planned):
 | Images | Check scaling and aspect | Not stretched/pixelated | ✅ Pass |
 | Validation | W3C HTML + CSS | No critical errors | ✅ Pass |
 | Broken links | Internal anchors | All valid | ✅ Pass |
+| Contact form | Submit the form (valid input) | Redirects to `success.html` + confirmation message is visible | ✅ Pass |
+| Success page CTAs | Click "Back to Home/Projects" | Returns to the correct section/page | ✅ Pass |
+| 404 page | Open a non-existent URL on the deployed site | `404.html` loads and provides a clear route back | ✅ Pass |
 
 ### Validation
 - HTML: W3C validator — no issues
