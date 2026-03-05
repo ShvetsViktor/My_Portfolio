@@ -42,6 +42,8 @@ body {
     /* 16px */
     line-height: 1.5;
     /* 150% */
+    padding-top: 56px
+        /* To prevent content from being hidden behind fixed navbar */
 }
 
 /* ============================================
@@ -116,6 +118,19 @@ h5 {
 /* Icon helper: brightens dark logos on dark backgrounds */
 .icon-dark-mode {
     filter: invert(1) brightness(1.2);
+}
+
+/* ============================================
+   NAVBAR
+   ============================================ */
+
+/* Navbar styling with solid background */
+.navbar {
+    background-color: #092B4C;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* ============================================
