@@ -428,24 +428,32 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating -->
     <script>
         document
             .querySelectorAll(".navbar-collapse .nav-link")
             .forEach((link) => {
                 link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
+                    let href = e.target.getAttribute("href");
+
+                    // Check if it's an internal anchor link (starts with #)
+                    if (href && href.startsWith("#")) {
+                        let section = document.querySelector(href);
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarToggler = document.querySelector(".navbar-toggler");
+                            let navbarHeight = navbarToggler ? navbarToggler.offsetHeight : 0;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                        }
                     }
+
+                    // Close navbar for all nav links (internal anchors, external links, PDFs, etc.)
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
                 });
             });
     </script>
