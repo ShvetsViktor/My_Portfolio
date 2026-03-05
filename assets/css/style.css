@@ -14,7 +14,6 @@ body {
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -116,7 +115,6 @@ h5 {
 
 /* Icon helper: brightens dark logos on dark backgrounds */
 .icon-dark-mode {
-    -webkit-filter: invert(1) brightness(1.2);
     filter: invert(1) brightness(1.2);
 }
 
@@ -161,11 +159,7 @@ h5 {
 
 /* Link-style CTA like in Figma */
 .btn-link-cta {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     gap: 12px;
 
@@ -213,14 +207,8 @@ h5 {
 
 /* Skill tags in project cards */
 .tag {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 
     padding: 4px 10px;
@@ -236,9 +224,6 @@ h5 {
     white-space: nowrap;
 
     pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 }
 
@@ -270,9 +255,9 @@ h5 {
 #contact textarea.form-control {
     background-color: rgba(255, 255, 255, 0.10);
     border: 0 !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     color: #fff;
+
     border-radius: 6px;
     padding: 12px;
 }
@@ -283,36 +268,11 @@ h5 {
 #contact textarea.form-control:focus {
     background-color: rgba(255, 255, 255, 0.16);
     border: 0 !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     color: #fff;
 }
 
 /* Placeholder */
-#contact .form-control::-webkit-input-placeholder,
-#contact textarea.form-control::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.60);
-    opacity: 1;
-}
-
-#contact .form-control::-moz-placeholder,
-#contact textarea.form-control::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.60);
-    opacity: 1;
-}
-
-#contact .form-control:-ms-input-placeholder,
-#contact textarea.form-control:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.60);
-    opacity: 1;
-}
-
-#contact .form-control::-ms-input-placeholder,
-#contact textarea.form-control::-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.60);
-    opacity: 1;
-}
-
 #contact .form-control::placeholder,
 #contact textarea.form-control::placeholder {
     color: rgba(255, 255, 255, 0.60);
@@ -335,20 +295,13 @@ h5 {
 .footer-link:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
-    -webkit-text-decoration-color: rgba(255, 255, 255, .6);
     text-decoration-color: rgba(255, 255, 255, .6);
 }
 
 /* Icon links */
 .footer-icon {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     text-decoration: none;
 }
