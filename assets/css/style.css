@@ -200,6 +200,8 @@ h5 {
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 /* ============================================
