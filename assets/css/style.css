@@ -179,6 +179,7 @@ h5 {
     gap: 12px;
 
     padding: 0;
+    padding-left: 15px;
     min-height: auto;
 
     background: transparent;
@@ -219,6 +220,10 @@ h5 {
 /* Remove border-radius on cards */
 .card-img-top {
     border-radius: 0 !important;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 
