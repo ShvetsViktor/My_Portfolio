@@ -1,455 +1,487 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Viktor Shvets — Frontend Developer portfolio. Projects, skills, and contact details. Built with HTML, CSS, and Bootstrap.">
-    <link rel="canonical" href="https://shvetsviktor.github.io/My_Portfolio/">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Viktor Shvets — Frontend Developer portfolio. Projects, skills, and contact details. Built with HTML, CSS, and Bootstrap."
+    />
+    <link rel="canonical" href="https://viktor-shvets.uk/" />
     <title>Viktor Shvets | Software Developer</title>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/icon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/icon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/icon-32.png" />
 
     <!-- Roboto font import -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 
     <!-- Bootstrap CSS CDN import -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
     <!-- Custom CSS file import -->
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-<!-- Dark theme applied to body -->
+  <!-- Dark theme applied to body -->
 
-<body data-bs-theme="dark">
+  <body data-bs-theme="dark">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm fixed-top" aria-label="Main navigation">
-        <div class=" container">
-            <!-- Brand link to the homepage -->
-            <a class="brand-name" href="index.html">Viktor
-                Shvets</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <!--  -->
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="assets/cv/viktor_shvets_cv.pdf" target="_blank"
-                            rel="noopener noreferrer">Resume</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <!-- Brand link to the homepage -->
+        <a class="brand-name" href="index.html">Viktor Shvets</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assets/cv/viktor_shvets_cv.pdf" target="_blank" rel="noopener noreferrer"
+                >Resume</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <header id="hero">
-        <!-- Hero content container -->
-        <div class="container py-64">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h2 class="mb-20 text-center">Viktor Shvets</h2>
-                    <h1 class="mb-20 text-center">Frontend Developer</h1>
-                    <p class="mb-4 text-justify">
-                        I build responsive, user-focused websites with HTML, CSS, JavaScript, and React. With a QA
-                        background, I ship clean interfaces with strong attention to detail, accessibility, and
-                        reliability.
-                    </p>
-                    <!-- Buttons in flex container -->
-                    <div class="d-flex justify-content-start gap-3 mb-5">
-                        <a class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</a>
-                        <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
-                    </div>
-                </div>
-                <!-- Image -->
-                <div class="col-12 col-md-6">
-                    <!-- img-fluid class makes the image responsive to its container -->
-                    <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets">
-                </div>
+      <!-- Hero content container -->
+      <div class="container py-64">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2 class="mb-20 text-center">Viktor Shvets</h2>
+            <h1 class="mb-20 text-center">Frontend Developer</h1>
+            <p class="mb-4 text-justify">
+              I build responsive, user-focused websites with HTML, CSS, JavaScript, and React. With a QA background, I
+              ship clean interfaces with strong attention to detail, accessibility, and reliability.
+            </p>
+            <!-- Buttons in flex container -->
+            <div class="d-flex justify-content-start gap-3 mb-5">
+              <a class="btn btn-brand btn-brand-primary" href="#portfolio">Projects</a>
+              <a class="btn btn-brand btn-brand-secondary" href="#contact">Contact</a>
             </div>
+          </div>
+          <!-- Image -->
+          <div class="col-12 col-md-6">
+            <!-- img-fluid class makes the image responsive to its container -->
+            <img src="assets/images/viktor-shvets.jpg" class="img-fluid" alt="Viktor Shvets" />
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- Main page content -->
     <main>
-        <!-- About section -->
-        <section id="about" class="container py-64">
-            <div class="row">
-                <div class="col-12">
-                    <p class="mb-3 fw-semibold">Precision-first</p>
-                    <h2 class="mb-20">Reliable by design</h2>
-                </div>
-                <div class="col-12">
-                    <p class="mb-4 text-justify">
-                        My QA and healthcare background shaped a calm, detail-driven mindset—focused on reliability and
-                        doing things right.
-                    </p>
-                </div>
-                <!-- Buttons in flex container -->
-                <div class=" col-12 d-flex justify-content-start gap-3">
-                    <a href="#skills" class="btn btn-brand btn-brand-primary">Skills</a>
-                    <a href="assets/cv/viktor_shvets_cv.pdf" class="btn btn-brand btn-brand-secondary" target="_blank"
-                        rel="noopener noreferrer">Resume</a>
-                </div>
+      <!-- About section -->
+      <section id="about" class="container py-64">
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-3 fw-semibold">Precision-first</p>
+            <h2 class="mb-20">Reliable by design</h2>
+          </div>
+          <div class="col-12">
+            <p class="mb-4 text-justify">
+              My QA and healthcare background shaped a calm, detail-driven mindset—focused on reliability and doing
+              things right.
+            </p>
+          </div>
+          <!-- Buttons in flex container -->
+          <div class="col-12 d-flex justify-content-start gap-3">
+            <a href="#skills" class="btn btn-brand btn-brand-primary">Skills</a>
+            <a
+              href="assets/cv/viktor_shvets_cv.pdf"
+              class="btn btn-brand btn-brand-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills" class="container py-64">
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="mb-3 fw-semibold">Capabilities</p>
+            <h2 class="mb-20">What I bring</h2>
+            <p class="mb-0">
+              A blend of technical depth and practical experience. Testing expertise means I build with edge cases in
+              mind, catching problems before they reach users.
+            </p>
+          </div>
+          <div>
+            <div class="col-12 mt-5">
+              <div class="d-flex justify-content-center gap-4 flex-nowrap">
+                <img src="assets/icons/html5.svg" alt="HTML5" width="48" height="48" />
+                <img src="assets/icons/css3.svg" alt="CSS3" width="48" height="48" />
+                <img src="assets/icons/js.svg" alt="JavaScript" width="48" height="48" />
+              </div>
             </div>
-        </section>
-
-        <!-- Skills section -->
-        <section id="skills" class="container py-64">
-            <div class="row text-center">
-                <div class="col-12">
-                    <p class="mb-3 fw-semibold">Capabilities</p>
-                    <h2 class="mb-20">What I bring</h2>
-                    <p class="mb-0">A blend of technical depth and practical experience. Testing expertise means I build
-                        with edge
-                        cases in mind, catching problems before they reach users.</p>
-                </div>
-                <div>
-                    <div class="col-12 mt-5">
-                        <div class="d-flex justify-content-center gap-4 flex-nowrap">
-                            <img src="assets/icons/html5.svg" alt="HTML5" width="48" height="48">
-                            <img src="assets/icons/css3.svg" alt="CSS3" width="48" height="48">
-                            <img src="assets/icons/js.svg" alt="JavaScript" width="48" height="48">
-                        </div>
-                    </div>
-                    <h3 class="pt-20 mb-20 h4">Core web technologies</h3>
-                    <p>HTML, CSS, JavaScript and responsive design patterns that work across devices and browsers.</p>
-                </div>
-                <div>
-                    <div class="col-12 mt-5">
-                        <div class="d-flex justify-content-center gap-4 flex-nowrap">
-                            <img src="assets/icons/react.svg" alt="React" width="48" height="48">
-                            <img src="assets/icons/next-js.svg" alt="next-js" width="48" height="48"
-                                class="icon-dark-mode">
-                            <img src="assets/icons/git.svg" alt="git" width="48" height="48">
-                            <img src="assets/icons/figma.svg" alt="figma" width="48" height="48">
-                        </div>
-                    </div>
-                    <h3 class="pt-20 mb-20 h4">Modern frameworks and tools</h3>
-                    <p>React and Next.js for scalable applications, Git for version control, Figma for design
-                        collaboration, and API integration for dynamic content.</p>
-                </div>
-                <div>
-                    <div class="col-12 mt-5">
-                        <div class="d-flex justify-content-center gap-4 flex-nowrap">
-                            <img src="assets/icons/testing.svg" alt="Testing icon" width="48" height="48"
-                                class="icon-dark-mode">
-                            <img src="assets/icons/postman.svg" alt="Postman icon" width="100" height="48">
-                            <img src="assets/icons/jira.svg" alt="Jira icon" width="48" height="48"
-                                class="icon-dark-mode">
-                        </div>
-                    </div>
-                    <h3 class="pt-20 mb-20 h4">Quality assurance mindset</h3>
-                    <p>Functional, regression and integration testing expertise with tools like TestRail, Postman and
-                        Jira.</p>
-                </div>
-                <!-- Buttons in flex container -->
-                <div class="mt-5 col-12 d-flex justify-content-center gap-3">
-                    <a href="#portfolio" class="btn btn-brand btn-brand-secondary">Portfolio</a>
-                    <a href="#contact" class="btn btn-brand btn-link-cta">Contact ></a>
-                </div>
+            <h3 class="pt-20 mb-20 h4">Core web technologies</h3>
+            <p>HTML, CSS, JavaScript and responsive design patterns that work across devices and browsers.</p>
+          </div>
+          <div>
+            <div class="col-12 mt-5">
+              <div class="d-flex justify-content-center gap-4 flex-nowrap">
+                <img src="assets/icons/react.svg" alt="React" width="48" height="48" />
+                <img src="assets/icons/next-js.svg" alt="next-js" width="48" height="48" class="icon-dark-mode" />
+                <img src="assets/icons/git.svg" alt="git" width="48" height="48" />
+                <img src="assets/icons/figma.svg" alt="figma" width="48" height="48" />
+              </div>
             </div>
-        </section>
-
-        <!-- Portfolio section -->
-        <section id="portfolio" class="py-64">
-            <div class="container">
-                <div class="row g-4 justify-content-evenly align-items-stretch">
-                    <div class="col-12 text-center">
-                        <!-- Centered title, -->
-                        <p class="fw-semibold">Portfolio</p>
-                        <h2 class="pb-3">Work built with care</h2>
-                        <p>Each project reflects precision and attention to detail</p>
-                    </div>
-                    <!-- First card -->
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <article class="card h-100 d-flex flex-column">
-                            <img src="assets/images/koi4sale.webp" class="card-img-top" alt="koi for sale website image">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="card-title h5">Koi For Sale</h3>
-                                <p class="card-text mb-3">
-                                    Koi4Sale is a responsive marketing site for a koi fish store with server-rendered
-                                    pages. It includes light/dark theme switching, fast search, smooth UI animations,
-                                    and contact/email flows.
-                                </p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <span class="tag">React</span>
-                                    <span class="tag">Next.js</span>
-                                    <span class="tag">Tailwind</span>
-                                </div>
-                                <a href="https://koi4sale.vercel.app/" class="btn btn-link-cta mt-auto" target="_blank"
-                                    rel="noopener noreferrer">View
-                                    project ></a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Second card -->
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <article class="card h-100 d-flex flex-column">
-                            <img src="assets/images/marvel-info.webp" class="card-img-top"
-                                alt="marvel info website image">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="card-title h5">Marvel Info</h3>
-                                <p class="card-text mb-3">
-                                    Marvel Info Portal is a responsive single-page application showcasing Marvel
-                                    characters and comics with dynamic routing.
-                                </p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <span class="tag">React</span>
-                                    <span class="tag">Vite</span>
-                                    <span class="tag">SCSS</span>
-                                </div>
-                                <a href="https://marvel-inf0.vercel.app/" class="btn btn-link-cta mt-auto"
-                                    target="_blank" rel="noopener noreferrer">View
-                                    project ></a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Third card -->
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <article class="card h-100 d-flex flex-column">
-                            <img src="assets/images/monovision.webp" class="card-img-top" alt="monovision website image">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="card-title h5">Monovision</h3>
-                                <p class="card-text mb-3">
-                                    Monovision Studio is a static, responsive landing page focused on clean layout
-                                    structure, adaptive imagery, and scalable design.
-                                </p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <span class="tag">HTML</span>
-                                    <span class="tag">SCSS</span>
-                                    <span class="tag">Responsive</span>
-                                </div>
-                                <a href="https://shvetsviktor.github.io/monovision/src/"
-                                    class="btn btn-link-cta mt-auto" target="_blank" rel="noopener noreferrer">View
-                                    project ></a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Fourth card -->
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <article class="card h-100 d-flex flex-column">
-                            <img src="assets/images/ceramic-soul.webp" class="card-img-top"
-                                alt="ceramic soul website image">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="card-title h5">Ceramic Soul</h3>
-                                <p class="card-text mb-3">
-                                    Ceramic Soul is an in-progress, responsive static website featuring modular styling
-                                    and an interactive image slider.
-                                </p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <span class="tag">HTML</span>
-                                    <span class="tag">SCSS</span>
-                                    <span class="tag">JavaScript</span>
-                                </div>
-                                <a href="https://ceramic-soul-zeta.vercel.app/" class="btn btn-link-cta mt-auto"
-                                    target="_blank" rel="noopener noreferrer">View project
-                                    ></a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+            <h3 class="pt-20 mb-20 h4">Modern frameworks and tools</h3>
+            <p>
+              React and Next.js for scalable applications, Git for version control, Figma for design collaboration, and
+              API integration for dynamic content.
+            </p>
+          </div>
+          <div>
+            <div class="col-12 mt-5">
+              <div class="d-flex justify-content-center gap-4 flex-nowrap">
+                <img src="assets/icons/testing.svg" alt="Testing icon" width="48" height="48" class="icon-dark-mode" />
+                <img src="assets/icons/postman.svg" alt="Postman icon" width="100" height="48" />
+                <img src="assets/icons/jira.svg" alt="Jira icon" width="48" height="48" class="icon-dark-mode" />
+              </div>
             </div>
-        </section>
+            <h3 class="pt-20 mb-20 h4">Quality assurance mindset</h3>
+            <p>Functional, regression and integration testing expertise with tools like TestRail, Postman and Jira.</p>
+          </div>
+          <!-- Buttons in flex container -->
+          <div class="mt-5 col-12 d-flex justify-content-center gap-3">
+            <a href="#portfolio" class="btn btn-brand btn-brand-secondary">Portfolio</a>
+            <a href="#contact" class="btn btn-brand btn-link-cta">Contact ></a>
+          </div>
+        </div>
+      </section>
 
-        <!-- Background section -->
-        <section id="background" class="container py-64">
-            <div class="row">
-                <div class="col-12">
-                    <p class="mb-3 fw-semibold">Background</p>
-                    <h2 class="mb-20">Training and professional development</h2>
-                </div>
-                <div class="col-12">
-                    <p class="mb-4 text-justify">
-                        Currently pursuing a Level 5 Diploma in Web Application Development whilst building real
-                        projects. My journey spans software testing, medical training and frontend development, each
-                        discipline shaping how I approach problem-solving.
-                    </p>
-                </div>
-                <!-- Buttons in flex container -->
-                <div class=" col-12 d-flex justify-content-start gap-3">
-                    <a href="assets/cv/viktor_shvets_cv.pdf" class="btn btn-brand btn-brand-secondary" target="_blank" rel="noopener noreferrer">Download CV</a>
-                    <a href="#contact" class="btn btn-brand btn-link-cta">Contact
-                        ></a>
-                </div>
+      <!-- Portfolio section -->
+      <section id="portfolio" class="py-64">
+        <div class="container">
+          <div class="row g-4 justify-content-evenly align-items-stretch">
+            <div class="col-12 text-center">
+              <!-- Centered title, -->
+              <p class="fw-semibold">Portfolio</p>
+              <h2 class="pb-3">Work built with care</h2>
+              <p>Each project reflects precision and attention to detail</p>
             </div>
-        </section>
-
-        <!-- Contact section -->
-        <section id="contact"
-            class="container py-64 text-white link-light link-underline-opacity-0 link-underline-opacity-100-hover">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="col-12">
-                        <p class="mb-3 fw-semibold">Contact</p>
-                        <h2 class="mb-20">Send a message</h2>
-                    </div>
-                    <div class="col-12">
-                        <p class="mb-4 text-justify">
-                            Questions about a project or opportunity? </p>
-                    </div>
-                    <div class="col-12 pb-3">
-                        <img src="assets/icons/mail.svg" alt="Mail icon" width="28" height="28">
-                        <a class="ms-3" href="mailto:shvetsviktor89@gmail.com">shvetsviktor89@gmail.com</a>
-                    </div>
-                    <div class="col-12 pb-3">
-                        <img src="assets/icons/call.svg" alt="Phone icon" width="28" height="28">
-                        <a class="ms-3" href="tel:+447435408161">+44 7435 408161</a>
-                    </div>
-                    <div class="col-12 pb-5">
-                        <img src="assets/icons/location_pin.svg" alt="Location Pin icon icon" width="28" height="28">
-                        <a class="ms-3" href="https://www.google.com/maps?q=53.653511,-2.632596" target="_blank"
-                            rel="noopener noreferrer">
-                            Chorley, UK
-                        </a>
-                    </div>
+            <!-- First card -->
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="card h-100 d-flex flex-column">
+                <img src="assets/images/koi4sale.webp" class="card-img-top" alt="koi for sale website image" />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title h5">Koi For Sale</h3>
+                  <p class="card-text mb-3">
+                    Koi4Sale is a responsive marketing site for a koi fish store with server-rendered pages. It includes
+                    light/dark theme switching, fast search, smooth UI animations, and contact/email flows.
+                  </p>
+                  <div class="d-flex gap-2 mb-3">
+                    <span class="tag">React</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Tailwind</span>
+                  </div>
+                  <a
+                    href="https://koi4sale.vercel.app/"
+                    class="btn btn-link-cta mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project ></a
+                  >
                 </div>
-                <div class="col-12 col-lg-6">
-                    <!-- Contact Form -->
-                    <form action="success.html">
-                        <fieldset>
-                            <legend class="visually-hidden">Contact Information</legend>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" autocomplete="name"
-                                    required>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" autocomplete="email"
-                                    required>
-                                <div class="form-text">We'll never share your email with anyone else.</div>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" placeholder="Write your message"
-                                    name="message" rows="5" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-brand btn-brand-primary">Send</button>
-                        </fieldset>
-                    </form>
-                </div>
+              </article>
             </div>
-        </section>
+
+            <!-- Second card -->
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="card h-100 d-flex flex-column">
+                <img
+                  src="assets/images/rainbow-me-decor.webp"
+                  class="card-img-top"
+                  alt="Rainbow Me Decor Studio website"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title h5">Rainbow Me Decor Studio</h3>
+                  <p class="card-text mb-3">
+                    Rainbow Me Decor Studio is an interactive event decoration website with dynamic portfolio filtering,
+                    image modals, responsive carousels, an estimate builder, and validated enquiry flows.
+                  </p>
+                  <div class="d-flex gap-2 mb-3">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Jest</span>
+                    <span class="tag">Swiper</span>
+                  </div>
+                  <a
+                    href="https://shvetsviktor.github.io/rainbow_me_deco/"
+                    class="btn btn-link-cta mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project ></a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <!-- Third card -->
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="card h-100 d-flex flex-column">
+                <img src="assets/images/marvel-info.webp" class="card-img-top" alt="marvel info website image" />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title h5">Marvel Info</h3>
+                  <p class="card-text mb-3">
+                    Marvel Info Portal is a responsive single-page application showcasing Marvel characters and comics
+                    with dynamic routing.
+                  </p>
+                  <div class="d-flex gap-2 mb-3">
+                    <span class="tag">React</span>
+                    <span class="tag">Vite</span>
+                    <span class="tag">SCSS</span>
+                  </div>
+                  <a
+                    href="https://marvel-inf0.vercel.app/"
+                    class="btn btn-link-cta mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project ></a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <!-- Fourth card -->
+            <div class="col-12 col-sm-6 col-xl-3">
+              <article class="card h-100 d-flex flex-column">
+                <img src="assets/images/monovision.webp" class="card-img-top" alt="monovision website image" />
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title h5">Monovision</h3>
+                  <p class="card-text mb-3">
+                    Monovision Studio is a static, responsive landing page focused on clean layout structure, adaptive
+                    imagery, and scalable design.
+                  </p>
+                  <div class="d-flex gap-2 mb-3">
+                    <span class="tag">HTML</span>
+                    <span class="tag">SCSS</span>
+                    <span class="tag">Responsive</span>
+                  </div>
+                  <a
+                    href="https://shvetsviktor.github.io/monovision/src/"
+                    class="btn btn-link-cta mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project ></a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Background section -->
+      <section id="background" class="container py-64">
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-3 fw-semibold">Background</p>
+            <h2 class="mb-20">Training and professional development</h2>
+          </div>
+          <div class="col-12">
+            <p class="mb-4 text-justify">
+              Currently pursuing a Level 5 Diploma in Web Application Development whilst building real projects. My
+              journey spans software testing, medical training and frontend development, each discipline shaping how I
+              approach problem-solving.
+            </p>
+          </div>
+          <!-- Buttons in flex container -->
+          <div class="col-12 d-flex justify-content-start gap-3">
+            <a
+              href="assets/cv/viktor_shvets_cv.pdf"
+              class="btn btn-brand btn-brand-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Download CV</a
+            >
+            <a href="#contact" class="btn btn-brand btn-link-cta">Contact ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section
+        id="contact"
+        class="container py-64 text-white link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+      >
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="col-12">
+              <p class="mb-3 fw-semibold">Contact</p>
+              <h2 class="mb-20">Send a message</h2>
+            </div>
+            <div class="col-12">
+              <p class="mb-4 text-justify">Questions about a project or opportunity?</p>
+            </div>
+            <div class="col-12 pb-3">
+              <img src="assets/icons/mail.svg" alt="Mail icon" width="28" height="28" />
+              <a class="ms-3" href="mailto:shvetsviktor89@gmail.com">shvetsviktor89@gmail.com</a>
+            </div>
+            <div class="col-12 pb-3">
+              <img src="assets/icons/call.svg" alt="Phone icon" width="28" height="28" />
+              <a class="ms-3" href="tel:+447435408161">+44 7435 408161</a>
+            </div>
+            <div class="col-12 pb-5">
+              <img src="assets/icons/location_pin.svg" alt="Location Pin icon icon" width="28" height="28" />
+              <a
+                class="ms-3"
+                href="https://www.google.com/maps?q=53.653511,-2.632596"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Chorley, UK
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <!-- Contact Form -->
+            <form action="success.html">
+              <fieldset>
+                <legend class="visually-hidden">Contact Information</legend>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" autocomplete="name" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" autocomplete="email" required />
+                  <div class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    placeholder="Write your message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-brand btn-brand-primary">Send</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="py-5 text-center text-white">
-        <div class="container">
+      <div class="container">
+        <!-- TOP ROW (lg+: brand name | links | social) -->
+        <div
+          class="d-flex flex-column align-items-center gap-4 flex-lg-row justify-content-lg-between align-items-lg-center text-lg-start"
+        >
+          <!-- Name (hidden on mobile, shown on lg+) -->
+          <a class="brand-name d-none d-lg-block" href="index.html"> Viktor Shvets </a>
 
-            <!-- TOP ROW (lg+: brand name | links | social) -->
-            <div class="d-flex flex-column align-items-center gap-4
-                flex-lg-row justify-content-lg-between align-items-lg-center
-                text-lg-start">
+          <!-- Links -->
+          <nav class="d-flex flex-column gap-3 align-items-center flex-lg-row gap-lg-4 mb-0">
+            <a class="footer-link" href="#about">About</a>
+            <a class="footer-link" href="#skills">Skills</a>
+            <a class="footer-link" href="#portfolio">Projects</a>
+            <a class="footer-link" href="#contact">Contact</a>
+            <a class="footer-link" href="assets/cv/viktor_shvets_cv.pdf" target="_blank" rel="noopener noreferrer"
+              >Resume</a
+            >
+          </nav>
 
-                <!-- Name (hidden on mobile, shown on lg+) -->
-                <a class="brand-name d-none d-lg-block" href="index.html"
-                    >
-                    Viktor Shvets
-                </a>
-
-                <!-- Links -->
-                <nav class="d-flex flex-column gap-3 align-items-center
-                  flex-lg-row gap-lg-4 mb-0">
-                    <a class="footer-link" href="#about">About</a>
-                    <a class="footer-link" href="#skills">Skills</a>
-                    <a class="footer-link" href="#portfolio">Projects</a>
-                    <a class="footer-link" href="#contact">Contact</a>
-                    <a class="footer-link" href="assets/cv/viktor_shvets_cv.pdf" target="_blank"
-                        rel="noopener noreferrer">Resume</a>
-                </nav>
-
-                <!-- Social links are disabled for now. Don't forget to add target blank and rel="noopener noreferrer"-->
-                <div class="d-flex justify-content-center gap-4 mb-0">
-                    <a class="footer-icon" href="#" aria-label="Facebook">
-                        <img src="assets/icons/facebook.svg" alt="Facebook" width="28" height="28">
-                    </a>
-                    <a class="footer-icon" href="#" aria-label="Instagram">
-                        <img src="assets/icons/instagram.svg" alt="Instagram" width="28" height="28">
-                    </a>
-                    <a class="footer-icon" href="#" aria-label="X">
-                        <img src="assets/icons/x.svg" alt="X" width="28" height="28">
-                    </a>
-                    <a class="footer-icon" href="#" aria-label="LinkedIn">
-                        <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="28" height="28">
-                    </a>
-                    <a class="footer-icon" href="#" aria-label="YouTube">
-                        <img src="assets/icons/youtube.svg" alt="YouTube" width="28" height="28">
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- Divider -->
-            <hr class="footer-divider my-4">
-
-            <!-- Copyright -->
-            <p class="mb-0 text-white-50 text-center">
-                © 2026 Viktor Shvets Portfolio
-            </p>
-
+          <!-- Social links are disabled for now. Don't forget to add target blank and rel="noopener noreferrer"-->
+          <div class="d-flex justify-content-center gap-4 mb-0">
+            <a class="footer-icon" href="#" aria-label="Facebook">
+              <img src="assets/icons/facebook.svg" alt="Facebook" width="28" height="28" />
+            </a>
+            <a class="footer-icon" href="#" aria-label="Instagram">
+              <img src="assets/icons/instagram.svg" alt="Instagram" width="28" height="28" />
+            </a>
+            <a class="footer-icon" href="#" aria-label="X">
+              <img src="assets/icons/x.svg" alt="X" width="28" height="28" />
+            </a>
+            <a class="footer-icon" href="#" aria-label="LinkedIn">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="28" height="28" />
+            </a>
+            <a class="footer-icon" href="#" aria-label="YouTube">
+              <img src="assets/icons/youtube.svg" alt="YouTube" width="28" height="28" />
+            </a>
+          </div>
         </div>
+
+        <!-- Divider -->
+        <hr class="footer-divider my-4" />
+
+        <!-- Copyright -->
+        <p class="mb-0 text-white-50 text-center">© 2026 Viktor Shvets Portfolio</p>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating -->
     <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let href = e.target.getAttribute("href");
+      document.querySelectorAll('.navbar-collapse .nav-link').forEach((link) => {
+        link.addEventListener('click', function (e) {
+          let href = e.target.getAttribute('href');
 
-                    // Check if it's an internal anchor link (starts with #)
-                    if (href && href.startsWith("#")) {
-                        let section = document.querySelector(href);
-                        if (section) {
-                            e.preventDefault(); // Prevent default anchor click behavior
-                            let navbarToggler = document.querySelector(".navbar-toggler");
-                            let navbarHeight = navbarToggler ? navbarToggler.offsetHeight : 0;
-                            window.scroll({
-                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                                behavior: "smooth",
-                            });
-                        }
-                    }
+          // Check if it's an internal anchor link (starts with #)
+          if (href && href.startsWith('#')) {
+            let section = document.querySelector(href);
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarToggler = document.querySelector('.navbar-toggler');
+              let navbarHeight = navbarToggler ? navbarToggler.offsetHeight : 0;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: 'smooth',
+              });
+            }
+          }
 
-                    // Close navbar for all nav links (internal anchors, external links, PDFs, etc.)
-                    document
-                        .querySelector(".navbar-collapse")
-                        .classList.remove("show"); // Collapse navbar
-                });
-            });
+          // Close navbar for all nav links (internal anchors, external links, PDFs, etc.)
+          document.querySelector('.navbar-collapse').classList.remove('show'); // Collapse navbar
+        });
+      });
     </script>
-</body>
-
+  </body>
 </html>
