@@ -640,16 +640,20 @@ This checklist confirms completed requirements.
 ## Repo Structure
 
 ```text
-assets/
-  css/
-  cv/
-  favicon/
-  icons/
-  images/
-  mockups/
-  testing/
-  wireframes/
-404.html
-index.html
-README.md
+My_Portfolio/
+├── assets/
+│   ├── css/
+│   ├── cv/
+│   ├── favicon/
+│   ├── icons/
+│   ├── images/
+│   ├── mockups/
+│   ├── testing/
+│   └── wireframes/
+├── .gitignore
+├── 404.html
+├── CNAME
+├── index.html
+├── README.md
+└── success.html
 ```
